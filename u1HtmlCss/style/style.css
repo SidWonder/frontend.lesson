@@ -1,0 +1,21 @@
+body{
+    background-color: #f7f7f7;
+}
+
+nav {
+    background-color:#dfdfdf;
+    text-align: center;
+    border: 1px solid #b5b7ba;
+    margin-top: 18px;
+}
+
+nav ul li{
+    display:inline-block;
+}
+
+#footer{
+    background-color: #aaa;
+    text-align: center;
+    height: 120px;
+    font-size: 18px;
+}
