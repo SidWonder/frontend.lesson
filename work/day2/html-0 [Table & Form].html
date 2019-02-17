@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <cite>*Таблица и форма обратной связи с использованием HTML без CSS</cite>
+    <!-- Table -->
+    <h1 align="center">Выписка по счету "Иванова Ивана Ивановича":</h1>
+    <table border="1" cellspacing="0" align="center">
+        <tr>
+            <td><b>ФИО</b></td>
+            <td colspan="4">Иванов Иван Иванович</td>
+        </tr>
+        <tr>
+            <td><b>Вклад</b></td>
+            <td>рублевый депозит "Стандарт"</td>
+            <td><b>Номер счета</b></td>
+            <td colspan="2">1004658756</td>
+        </tr>
+        <tr text-align="center">
+            <td rowspan="6">Последние операции</td>
+            <td>Дата</td>
+            <td>Вид операции</td>
+            <td>Сумма</td>
+            <td>Остаток</td>
+        </tr>
+        <tr>
+            <td>10/12/2018</td>
+            <td>Расход</td>
+            <td>1000</td>
+            <td>17000</td>
+        </tr>
+        <tr>
+            <td>11/12/2018</td>
+            <td>Расход</td>
+            <td>1000</td>
+            <td>16000</td>
+        </tr>
+        <tr>
+            <td>11/12/2018</td>
+            <td>Расход</td>
+            <td>1000</td>
+            <td>15000</td>
+        </tr>
+        <tr>
+            <td>15/12/2018</td>
+            <td>Приход</td>
+            <td>30000</td>
+            <td>45000</td>
+        </tr>
+        <tr>
+            <td>17/12/2018</td>
+            <td>Расход</td>
+            <td>700</td>
+            <td>44300</td>
+        </tr>
+    </table>
+
+<hr>
+    <!--forms  -->
+    <h1 align="center">Форма отправки комментария:</h1>
+    <form action="post.php" method="get" align="center">
+        <label for="userId">Имя:</label><input id="userId" type="text" name="user" placeholder="Введите имя"><br \>
+        <label for="famelyId">Фамилия:</label><input id="famelyId" type="text" name="family" placeholder="Введите фамилию"><br \>
+        <label for="MailId">Фамилия:</label><input id="mailId" type="email" name="email" placeholder="@"><br \>
+        <label for="CommentId">Комментарий:</label><textarea id="CommentId" name="comment" placeholder="Введите текст комментария..."></textarea><br \>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">  
+
+    </form>
+</body>
+</html>
