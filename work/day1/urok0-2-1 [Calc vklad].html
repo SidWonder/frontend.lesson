@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charseet="utf-8">
+    <title></title>
+    <script type="text/javascript">
+        // Расчет вклада Урок 0.2
+        var UserVklad   = Number(prompt("Введите сумму вклада"));  
+        var UserProcent = Number(prompt("Введите процент"));
+        var SrokVklada  = Number(prompt("Введите на какой срок у вас вклад"));
+        var SumProc = 0;
+        var Dohod = 0;
+
+        if (SrokVklada>=1){
+          while(true){
+                i=1
+            while(SrokVklada>=i){
+                if (Dohod>0){
+                UserVklad = UserVklad + Dohod;
+              }
+              var Pribil = 0;
+              Pribil = (UserVklad*UserProcent)/100;
+              Dohod = Dohod + Pribil;
+
+              Pribil = Number(Pribil.toFixed(2));
+              Dohod  = Number(Dohod.toFixed(2));
+                alert("За" + i + " год вы получите:" + Pribil + " руб. Всего прибыль: " + Dohod + " руб.");
+                i++;
+            }
+            if (SrokVklada = i){
+            break;}
+          }
+        }else{
+            alert("Ваш вклад должен быть на срок не менее года!");
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
