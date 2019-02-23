@@ -1,3 +1,50 @@
+
+***
+#####  DAY 15:  [23.02.19]
+**Что сделано:**
+- [x] FreeCodeCamp закончил курс "Applied Accessibility"
+- [x] FreeCodeCamp прошел курс "Responsive Web Design Principles"
+
+**В работе:**
+- [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+- LostSchool: Основы верстки
+
+**Комментарий:**  
+Из нового узнал о атрибутах accesskey - с помощью которого можно назначить для элемента горячую клавишу и tabindex - позволяющий с помощью таба перемещаться между элементами. Немного освежил в памяти медиа-запросы.
+Немного о планах на ближайшее время: 
+1) FCC: Пройти курс Flexbox 
+2) FCC: Пройти курс grid
+3) FCC: Выполнить практическое задание модуля "Responsive Web Design Certification"
+4) LostSchool: Закончить курс и выполнить практическое задание
+5) Geekbrains: Профессия web-разработчик. [Начать работу над курсом и дойдя до JS совмещать с FreeCodeCamp] 
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 88мин.       |
+
+
+***
+#####  Отдых  [22.02.19]
+
+***
+#####  DAY 14:  [21.02.19]
+**Что сделано:**
+- [ ] Harvard CS50: посмотрел 2 лекцию
+
+**В работе:**
+- [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+- LostSchool: Основы верстки
+
+**Комментарий:**  
+Просмотрел 2 лекцию нулевой недели, прочитал конспекты и выполнил небольшой проект на Scratch.
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| Garvard CS50  | 67мин.       |
+| Scratch       | 41мин.       |
+
 ***
 #####  DAY 13:  [20.02.19]
 **Что сделано:**
