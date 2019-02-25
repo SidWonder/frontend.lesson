@@ -1,5 +1,22 @@
 
 ***
+#####  DAY 16:  [24.02.19]
+**Что сделано:**
+- [ ] FreeCodeCamp Начал курс "CSS Flexbox"
+
+**В работе:**
+- [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+- LostSchool: Основы верстки
+
+**Комментарий:**  
+Начал проходить курс по Flexbox, до этого не приходилось сталкиваться с ними. Давно когда-то немного верстал на флексах. 
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 39мин.       |
+
+***
 #####  DAY 15:  [23.02.19]
 **Что сделано:**
 - [x] FreeCodeCamp закончил курс "Applied Accessibility"
