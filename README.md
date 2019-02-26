@@ -1,3 +1,22 @@
+
+***
+#####  DAY 18:  [26.02.19]
+**Что сделано:**
+- [x] FreeCodeCamp закончил курс "CSS Flexbox"
+- [ ] FreeCodeCamp начал курс "CSS Grid"
+
+**В работе:**
+- [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+- LostSchool: Основы верстки
+
+**Комментарий:**  
+
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 36мин.       |
+
 ***
 #####  DAY 17:  [25.02.19]
 **Что сделано:**
