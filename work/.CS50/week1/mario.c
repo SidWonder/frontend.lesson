@@ -12,7 +12,6 @@ int main(void){
     for(int z = 21; z>0; z--){printf(" ");}
     printf("##\n");
 
-
     for(int r = 2; r<=num; r++ )
     {
         //Space
