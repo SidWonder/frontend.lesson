@@ -1,3 +1,21 @@
+
+***
+#####  DAY 23:  [04.03.19]
+**Что сделано:**
+- [ ] FreeCodeCamp. Работал над проектом  
+**В работе:**
+- [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+- LostSchool: Основы верстки
+
+**Комментарий:**  
+Работал над созданием страницы по [заданию](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page/), тему проекта выбрал герои Marvel - Мстители. Сделал разметку, нашел логотип и иконки.
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 65мин.       |
+
+
 ***
 #####  DAY 22:  [03.03.19]
 **Что сделано:**
