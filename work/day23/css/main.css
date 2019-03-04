@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+
+body{
+    background-color: #DCDCDC;
+}
+
+main{
+    /*width:960px;*/
+    width:80%;
+    margin: 0 20% 0 20%;
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+main>span{
+    display:block;
+    text-align: center;
+}
+
+#tittle{
+    font-family: 'Neucha', cursive;
+    text-align: center;
+}
+
+#img-div{
+    background-color: white;
+}
+
+#image{
+    display: block;
+    /*height: 80%;*/
+    width: 97%;
+    max-height: 600px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+#img-caption{
+    display:block;
+    text-align: center;
+}
+
+footer{
+    width:80%;
+    margin: 0 20% 0 20%;
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+
+#ico_furi{
+
+}
