@@ -1,7 +1,7 @@
 ***
 #####  DAY 22:  [03.03.19]
 **Что сделано:**
-- [x] Harvard CS50: Неделя1: Пройдены все лекции и выполнены все задания.
+- [x] Harvard CS50: Неделя1: Пройдены все лекции и выполнены все задания.  
 **В работе:**
 - [FreeCodeCamp](https://learn.freecodecamp.org/)
 - [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
