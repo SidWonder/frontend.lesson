@@ -1,8 +1,30 @@
+***
+#####  DAY 24:  [05.03.19]
+**Что сделано:**
+- [ ] FreeCodeCamp. Закончил Project1 - Tribute Page  
+- [ ] Harvard CS50: Неделя2: Пройдено 2 лекции.
+
+**В работе:**
+- [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+- LostSchool: Основы верстки
+
+**Комментарий:**  
+FreeCodeCamp: Закончил работу над проектом по верстке страницы.  
+Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day23)
+Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day23/index.html)  
+По CS50: Просмотрел лекцию второй недели.
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 43мин.       |
+| CS50          | 54мин.       |
 
 ***
 #####  DAY 23:  [04.03.19]
 **Что сделано:**
 - [ ] FreeCodeCamp. Работал над проектом  
+
 **В работе:**
 - [FreeCodeCamp](https://learn.freecodecamp.org/)
 - [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
@@ -15,11 +37,11 @@
 | ------------- | -------------|
 | FreeCodeCamp  | 65мин.       |
 
-
 ***
 #####  DAY 22:  [03.03.19]
 **Что сделано:**
 - [x] Harvard CS50: Неделя1: Пройдены все лекции и выполнены все задания.  
+
 **В работе:**
 - [FreeCodeCamp](https://learn.freecodecamp.org/)
 - [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
