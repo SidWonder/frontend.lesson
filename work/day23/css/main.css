@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Neucha');
 
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
 body{
     background-color: #DCDCDC;
+    font-family: 'Pangolin', cursive;
 }
 
 main{
@@ -17,7 +20,7 @@ main>span{
     text-align: center;
 }
 
-#tittle{
+#title{
     font-family: 'Neucha', cursive;
     text-align: center;
 }
@@ -41,14 +44,29 @@ main>span{
     text-align: center;
 }
 
+ul>li{
+    list-style-image: url("../img/li.png");
+    margin-top: 5px;
+}
+
+.marvel_name:before{
+    content:" ";
+}
+
+.marvel_name{
+    font-weight: bold;
+}
+
+.marvel_ico{
+    width:24px; 
+    height:24px; 
+    vertical-align:bottom;  
+}
+
 footer{
     width:80%;
     margin: 0 20% 0 20%;
     margin: 0 auto;
     background-color: #eee;
-}
-
-
-#ico_furi{
-
+    text-align: center;
 }
