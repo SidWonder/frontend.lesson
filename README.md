@@ -10,7 +10,9 @@
 - LostSchool: Основы верстки
 
 **Комментарий:**  
-Сегоня работал с формами. Выполнил второй проект по курсу FreeCodeCamp.
+Сегоня работал с формами. Выполнил второй проект по курсу FreeCodeCamp.  
+Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day25)  
+Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day25/index.html)  
 
 | Задача:       | Время:       |
 | ------------- | -------------|
@@ -34,8 +36,8 @@ P.S Сделал себе внеплановый 6 дневный отпуск.
 
 **Комментарий:**  
 FreeCodeCamp: Закончил работу над проектом по верстке страницы.  
-Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day25)
-Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day25/index.html)  
+Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day23)
+Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day23/index.html)  
 По CS50: Просмотрел лекцию второй недели.
 
 | Задача:       | Время:       |
