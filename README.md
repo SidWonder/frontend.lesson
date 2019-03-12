@@ -1,7 +1,30 @@
+
+***
+#####  DAY 25:  [12.03.19]
+**Что сделано:**
+- [x] FreeCodeCamp. Выполнил Project2   
+
+**В работе:**
+- [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+- LostSchool: Основы верстки
+
+**Комментарий:**  
+Сегоня работал с формами. Выполнил второй проект по курсу FreeCodeCamp.
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 120мин.       |
+
+***
+#####  Отдых  [06.03.19 - 11.03.19]
+Сразу несколько факторов повлияло на то, что почти на неделью пришлось приостановить обучение. Болезнь, выезд за город не взяв с собой компьютер и праздники.
+P.S Сделал себе внеплановый 6 дневный отпуск.
+
 ***
 #####  DAY 24:  [05.03.19]
 **Что сделано:**
-- [ ] FreeCodeCamp. Закончил Project1 - Tribute Page  
+- [x] FreeCodeCamp. Закончил Project1 - Tribute Page  
 - [ ] Harvard CS50: Неделя2: Пройдено 2 лекции.
 
 **В работе:**
@@ -11,8 +34,8 @@
 
 **Комментарий:**  
 FreeCodeCamp: Закончил работу над проектом по верстке страницы.  
-Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day23)
-Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day23/index.html)  
+Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day25)
+Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day25/index.html)  
 По CS50: Просмотрел лекцию второй недели.
 
 | Задача:       | Время:       |
