@@ -9,7 +9,7 @@ var gulp       	 = require('gulp'), // Подключаем Gulp
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
     browserSync({ // Выполняем browserSync
         server: { // Определяем параметры сервера
-            baseDir: 'work/day23',    // Директория для сервера - app    
+            baseDir: 'work/day25',    // Директория для сервера - app    
             index: "index.html" //Загружаемая страница 
         },
         notify: false, // Отключаем уведомления
@@ -20,9 +20,9 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
   
 
 gulp.task('watch', ['browser-sync'], function() {
-    gulp.watch('work/day23/*.html', browserSync.reload); // Наблюдение за HTML файлами    
-    gulp.watch('work/day23/*.html', browserSync.reload); // Наблюдение за HTML файлами      
-    gulp.watch('work/day23/js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js
+    gulp.watch('work/day25/*.html', browserSync.reload); // Наблюдение за HTML файлами    
+    gulp.watch('work/day25/*.html', browserSync.reload); // Наблюдение за HTML файлами      
+    gulp.watch('work/day25/js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js
 });
 
 

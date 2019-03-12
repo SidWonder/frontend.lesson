@@ -1,0 +1,49 @@
+body {
+    background-color: #B0E0E6;
+    text-align: center;
+}
+.container {
+    background-color: white;
+    margin-right: 10%; 
+    margin-left: 10%;
+}
+
+.row {
+
+}
+
+.left {
+    display:inline-block;
+    width: 40%;
+    text-align: right;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.right {
+    display:inline-block;
+    width:48%;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+ul {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+textarea {
+    width: 80%;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+input[type="submit"] {
+    background-color:#4682B4;
+}

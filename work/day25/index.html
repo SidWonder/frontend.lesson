@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title></title>
+</head>
+<body>
+    <main>
+        <h1 id="title">Форма опроса</h1>
+        <div class="container">
+            <p id="description">Укажите ваши предпочтения во вселенной Marvel</p>
+            <form action="#" id="survey-form">
+                <div class="row">
+                    <div class="left">
+                        <label for="name" id="name-label">* Ваше имя: </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" id="name" placeholder="Введите имя" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="email" id="email-label">* Ваш e-mail: </label>
+                    </div>
+                    <div class="right">
+                        <input type="email" id="email" placeholder="mail@mail.com" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="number" id="number-label">* Возраст: </label>
+                    </div>
+                    <div class="right">
+                        <input type="number" min="16" max="120" id="number" placeholder="Age?" required>  
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="dropdown" id="dropdown-label">Ваша оценка фильму "Мстители": </label>
+                    </div>
+                    <div class="right">
+                        <select name="mstiteli" id="dropdown">
+                            <option value="10">10</option>
+                            <option value="9">9</option>
+                            <option value="8">8</option>
+                            <option value="7">7</option>
+                            <option value="6">6</option>
+                            <option value="5">5</option>
+                            <option value="4">4</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="hero" class="hero-label">Лучший герой вселенной: </label>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="12">Тор</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="11">Халк</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="10">Вижен</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="9">Алая ведьма</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="8">Черная вдова</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="7">Человек-паук</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="6">Звездный Лорд</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="5">Черная пантера</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="4">Доктор Стрэндж</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="3">Капитан Америка</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="2">Человек-муравей</label></li>
+                            <li><label for="hero" class="hero-label"><input type="radio" class="hero" name="hero" value="1">Железный человек</label></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="evil" class="evil-label">Лучший злодей вселенной: </label>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><label for="evil" class="evil-label"><input type="radio" class="evil" name="evil" value="1">Живая планета — ЭГО</label></li>
+                            <li><label for="evil" class="evil-label"><input type="radio" class="evil" name="evil" value="2">Ронан обвинитель</label></li>
+                            <li><label for="evil" class="evil-label"><input type="radio" class="evil" name="evil" value="3">Красный череп</label></li>
+                            <li><label for="evil" class="evil-label"><input type="radio" class="evil" name="evil" value="4">Дормамму</label></li>
+                            <li><label for="evil" class="evil-label"><input type="radio" class="evil" name="evil" value="5">Альтрон</label></li>
+                            <li><label for="evil" class="evil-label"><input type="radio" class="evil" name="evil" value="6">Танос</label></li>
+                        </ul>
+                    </div>
+                </div>  
+
+                <div class="row">
+                    <div class="left">
+                        <label >Какие бы способности вы себе хотели: </label>
+                    </div>
+                    <div class="right">
+                        <ul>
+                          <li><label><input type="checkbox" class="abilities" name="abilities" value="1">Молот тора</label></li>
+                          <li><label><input type="checkbox" class="abilities" name="abilities" value="2">Уменьшаться</label></li>
+                          <li><label><input type="checkbox" class="abilities" name="abilities" value="3">Владеть магией</label></li>
+                          <li><label><input type="checkbox" class="abilities" name="abilities" value="4">Превращаться в Халка</label></li>
+                          <li><label><input type="checkbox" class="abilities" name="abilities" value="5">Костюм железного человека</label></li>
+                      </ul>          
+                    </div>
+                </div> 
+
+
+
+                <div class="row">
+                    <div class="left">
+                        <label for="number" id="number-label">Оставьте комментарий: </label>
+                    </div>
+                    <div class="right">
+                        <textarea name="comment" rows="4" ></textarea> 
+                    </div>
+                </div>
+
+                <input id="submit" type="submit" name="buttonSend">
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
