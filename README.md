@@ -1,4 +1,22 @@
 ***
+#####  DAY 27:  [14.03.19]
+**Что сделано:**  
+- [ ] FreeCodeCamp. Начал Project3 Landing Page   
+
+**В работе:**  
+- [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+- LostSchool: Основы верстки
+
+**Комментарий:**  
+Начал работать над проектом 3 по курсу FCC. Верстаю лендинг и заодно разбираюсь с Flexbox. Тему выбрал:Лендинг заказа VIP Бургера  с описанием его приемуществ и видео презентацией.  
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 94мин.       |
+
+
+***
 #####  DAY 26:  [13.03.19]
 **Что сделано:**  
 - [ ] Harvard CS50: Неделя2: Пройдено 5 лекций.   
@@ -26,7 +44,7 @@
 - LostSchool: Основы верстки
 
 **Комментарий:**  
-Сегоня работал с формами. Выполнил второй проект по курсу FreeCodeCamp.  
+Сегодня работал с формами. Выполнил второй проект по курсу FreeCodeCamp.  
 Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day25)  
 Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day25/index.html)  
 
