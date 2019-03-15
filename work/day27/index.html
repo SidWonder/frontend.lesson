@@ -5,35 +5,100 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="VIP ФуллБургер - Самый очный дешевый бургер." />
+    <meta name="keywords" content="бургер, сочный бургер, VIP бургер, мраморная говядина" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
     <div class="container">
         <div class="container-overlay"></div>
+        <div class="header-overlay"></div>
         <header id="header">
+
             <div class="logo">
                 <img src="img/logo.png" width="100" height="100" alt="Logo" id="header-img">
             </div>        
             <nav id="nav-bar">
                 <ul>
-                    <li><a class="nav-link" href="#" title="">Заказать</a></li>
-                    <li><a class="nav-link" href="#" title="">Приемущества</a></li>
-                    <li><a class="nav-link" href="#" title="">Презентация</a></li>
-                    <li><a class="nav-link" href="#" title="">Доставка</a></li>
+                    <li><a class="nav-link" href="#y-forms" title="">Заказать</a></li>
+                    <li><a class="nav-link" href="#y-advantage" title="">Приемущества</a></li>
+                    <li><a class="nav-link" href="#y-promo" title="">Презентация</a></li>
+                    <li><a class="nav-link" href="#y-delivery" title="">Доставка</a></li>
                 </ul>
             </nav>
         </header><!-- /header -->
 
 
         <main class="main">
+            <div class="box-1" id="y-promo">
+                <div class="main-text">
+                    <h1>VIP ФуллБургер</h1>
+                    <span>Новинка !!!</span>
+                    <span>Самые сочные бургеры со скидкой <span id="discont">40%</span> </span>
+                </div>
+                <div class="main-video">
+                    <video controls poster="media/poster.jpg" id="video">
+                        <source src="media/food.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <!-- Форма заказа -->
+            <div class="box-2" id="y-forms">
+                <span id="description">Форма заказа</span>
+                <form action="https://www.freecodecamp.com/email-submit" method="get" id="form">
+                    <div class="left"><label for="count">Колличество бургеров: </label></div>
+                    <div class="right"><input type="number" min="1" max="99" id="count" name="count" value="1"></div>
+
+                    <div class="left"><label for="tel">* Телефон: </label></div>
+                    <div class="right"><input type="tel" id="tel" placeholder="+7 900 000 00 00" required></div>
+
+                    <div class="left"><label for="email">* E-mail: </label></div>
+                    <div class="right"><input type="email" name="email" id="email" placeholder="mail@mail.com" required></div>
+
+                    <div class="left"><label for="adres">* Адрес: </label></div>
+                    <div class="right"><textarea name="adres" id="adres" required></textarea></div>
+
+                    <div class="center">
+                        <input id="submit" type="submit" value="Заказать">
+                    </div>
+
+
+                </form>
+            </div>
+
+            <!-- Приемущества -->
+            <div class="box-3" id="y-advantage">
+                <span>Приемущества наших бургеров</span>
+                <div class="box-3-text">
+                    <ul>
+                        <li>Котлета состоит из сочной мраморной говядины;</li>
+                        <li>Мягкие булочки и отборные ингредиенты:</li>
+                        <li>В бургере используется уникальный соус разработанный нашей компанией; </li>
+                        <li>Мы используем только свежие овощи лично выращеные в наших теплицах;</li>
+                        <li>Рецепт продуман и выверен для достижения незабываемого вкуса;</li>
+                        <li>Цены наших бургеров повергнут вас в шок от своей доступности;</li>
+                        <li>При покупке четырех бургеров вы получаете холодный напиток в подарок;</li>
+                        <li>у нас действует накопительная программа, с которой вы сможете бесплатно обменивать накопленные баллы на наши незабываемые бургеры.</li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Доставка -->
+            <div class="box-4" id="y-delivery">
+                <span>Доставка</span>
+                <p>Доставка производится нашими курьерами по всему городу.</p> 
+                <p>Время доставки зависит от отдаленности вашего места проживания от нашего пункта выпечки бургеров, но не может привышать 45 минут.</p>
+                <p>В случае если наш курьер не приехал во время, заказ достается вам бесплатно</p>
+            </div>
 
         </main>
 
         <footer>
-
+            <span>(c) FullBurgеrs Corp</span><br>
+            <span>2019</span>
         </footer>
     </div>
 </body>

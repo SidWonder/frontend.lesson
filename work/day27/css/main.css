@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC');
 body {
     margin:0;
+    font-size: 1.8vh;
 }
 .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
     min-height: 600px;
-    /*width:100%;*/
+    min-width: 660px;
     background: url(../img/fon.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
     color: #fff;
     margin-left: auto;
     margin-right: auto;
@@ -34,17 +39,19 @@ header {
     align-items: center;
     width: 80%;
     height: 10vh;
-    z-index: 1;
+    z-index: 10;
+    position: fixed;
 }
 
-
-/*nav>ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    flex-grow:1;
-}*/
+.header-overlay {
+    position: absolute;
+    width: 100%;
+    opacity: .8;
+    background-color:#2F2F4F; 
+    height: 10vh;
+    z-index: 9;
+    position: fixed;
+}
 
 nav {
     width: 55%;    
@@ -54,9 +61,242 @@ nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    font-size: 2vh;
 }
 
 .nav-link {
     text-decoration: none;
     color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10vh;
+    z-index: 1;
+    width: 80%;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    order:1;
+}
+
+.main-text {
+    text-align: center;
+    margin-right:auto;
+    margin-left: auto;
+    background: linear-gradient(to right, yellow, red);
+    background-clip: text;
+        -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+
+}
+
+.main-text h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 5vh;
+}
+
+.main-text>span {
+    font-size: 3vh;
+}
+
+#discont {
+    font-size: 4vh;
+    font-weight: bold;
+    color: red;
+}
+
+.main-video>video {
+    height: 40vh; /* 300px */
+    border-radius: 30px;
+}
+
+video[poster]{
+    opacity: 0.8;
+}
+
+.box-2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    height: 400px;
+    background-color: rgba(147, 112, 219, 0.5);
+    order: 4;
+
+    width: 100%;
+    padding-right: 12.5%;
+    margin-left: -13%;
+    padding-left: 13%;
+}
+
+
+#description {
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#description::after {content: " - ";}
+#description::before {content: " - ";}
+
+.left {
+    display:inline-block;
+    width: 45%;
+    text-align: right;
+    padding:5px 5px 5px 4%;
+    vertical-align: top;
+}
+
+.right {
+    display:inline-block;
+    width:45%;
+    text-align: left;
+    vertical-align: middle;
+    padding:5px 5px 5px 4%;
+}
+
+input:not([id="submit"]) { 
+    width: 200px; 
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 rgba(255,255,255,0.9);
+    text-align: center;
+}
+textarea { 
+    width: 200px;
+    box-shadow: 0 0 5px 0 rgba(255,255,255,0.9);
+    text-align: center;
+    height: 100px;
+}
+
+input[id="submit"]{
+    display: inline-block;
+    width: 250px;
+    height:30px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 400px;
+    background-color: rgba(147, 112, 219, 0.5);
+    font-family: 'Alegreya SC', serif;
+    font-size: 23px;
+    text-align: center;
+    order:2;
+
+    width: 100%;
+    padding-right: 12.5%;
+    margin-left: -13%;
+    padding-left: 13%;
+}
+.box-3-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.box-3>span {
+    display: block;
+    font-size: 26px;}
+.box-3>span::after {content: " - ";}
+.box-3>span::before {content: " - ";}
+.box-3 span {
+    padding-left: 10px;
+}
+.box-3-text ul li{
+    text-align: left;
+}
+
+.box-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Alegreya SC', serif;
+    font-size: 23px;
+    text-align: center;
+    order:3;
+
+    width: 100%;
+    padding-right: 12.5%;
+    margin-left: -13%;
+    padding-left: 13%;
+}
+
+.box-4 span {font-size: 26px;}
+.box-4 span::after {content: " - ";}
+.box-4 span::before {content: " - ";}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+@media (min-height: 700px) and (max-width: 960px) {
+    .box-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-video>video {
+        height: 200px; /* 300px */
+        border-radius: 30px;
+    }
+}
+
+@media (max-height: 700px){
+    nav ul {
+        font-size: 2.5vh;
+}
+}
+
+@media (max-width: 960px) {
+    body {
+        font-size: 16px;
+    }
+    nav {
+        width: 80%;    
+    }
+    .box-1 {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    .left {
+    width: 30%;
+    }
+    .box-2 {
+        height: 350px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1100px) {
+   .box-3 {
+    height: 600px;
+   } 
 }
