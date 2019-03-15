@@ -1,4 +1,24 @@
 ***
+#####  DAY 28:  [15.03.19]
+**Что сделано:**  
+- [x] FreeCodeCamp. Выполнил Project3: Landing Page  
+
+**В работе:**  
+- [FreeCodeCamp](https://learn.freecodecamp.org/)  
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)  
+- LostSchool: Основы верстки  
+
+**Комментарий:**  
+Закончил третий проект по курсу FreeCodeCamp. Практиковался работать с флексбоксами, понемногу нарабатываю практику.  
+Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day27)  
+Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day27/index.html)  
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 246мин.      |
+
+
+***
 #####  DAY 27:  [14.03.19]
 **Что сделано:**  
 - [ ] FreeCodeCamp. Начал Project3 Landing Page   
