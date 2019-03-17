@@ -2,14 +2,15 @@
 var gulp       	 = require('gulp'), // Подключаем Gulp
     cache        = require('gulp-cache'), // Подключаем библиотеку кеширования
     browserSync  = require('browser-sync'), // Подключаем Browser Sync 
-    plumber      = require("gulp-plumber"); //предохранитель для остановки гальпа   
+    plumber      = require("gulp-plumber"), //предохранитель для остановки гальпа  
+    _day_        = 'work/day30';
 
 
 
 gulp.task('browser-sync', function() { // Создаем таск browser-sync
     browserSync({ // Выполняем browserSync
         server: { // Определяем параметры сервера
-            baseDir: 'work/day27',    // Директория для сервера - app    
+            baseDir: _day_,    // Директория для сервера - app    
             index: "index.html" //Загружаемая страница 
         },
         notify: false, // Отключаем уведомления
@@ -20,9 +21,9 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
   
 
 gulp.task('watch', ['browser-sync'], function() {
-    gulp.watch('work/day27/*.html', browserSync.reload); // Наблюдение за HTML файлами    
-    gulp.watch('work/day27/*.html', browserSync.reload); // Наблюдение за HTML файлами      
-    gulp.watch('work/day27/js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js
+    gulp.watch(_day_+'/*.html', browserSync.reload); // Наблюдение за HTML файлами    
+    gulp.watch(_day_+'/*.html', browserSync.reload); // Наблюдение за HTML файлами      
+    gulp.watch(_day_+'/js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js
 });
 
 

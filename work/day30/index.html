@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Technical Documentation Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav id="navbar">
+                <header> JavaScript Documentation</header><!-- /header -->
+                <ul class="nostyle">
+                    <li><a href="#What_is_JavaScript" class="nav-link">What is JavaScript</a></li>
+                    <li><a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a></li>
+                    <li><a href="#Getting_started_with_Javascript" class="nav-link">Getting started with Javascript</a></li>
+                    <li><a href="#Basics" class="nav-link">Basics</a></li>
+                    <li><a href="#Data_type_conversion" class="nav-link">Data type conversion</a></li>
+                </ul>
+            </nav>
+        </header><!-- /header -->
+
+        <main class="main" id="main-doc">
+            <section class="main-section" id="What_is_JavaScript">
+                <header>What is JavaScript</header>
+                <article>
+                    <p>JavaScript — это кросс-платформенный, объектно-ориентированный скриптовый язык, являющийся небольшим и легковесным. Внутри среды исполнения JavaScript может быть связан с объектами данной среды и предоставлять программный контроль над ними.</p>
+                    <p>JavaScript включает стандартную библиотеку объектов, например, <code>Array</code>,<code>Date</code> и <code>Math</code>,а также базовый набор языковых элементов, например, операторы и управляющие конструкции. Ядро JavaScript может быть расширено для различных целей путем добавления в него новых объектов, например:</p>
+                    <ul>
+                        <li>JavaScript на стороне клиента расширяет ядро языка, предоставляя объекты для контроля браузера и его Document Object Model (DOM). Например, клиентские расширения позволяют приложению размещать элементы в форме HTML и обрабатывать пользовательские события, такие как щелчок мыши, ввод данных в форму и навигация по страницам.</li>
+                        <li>JavaScript на стороне сервера расширяет ядро языка, предоставляя объекты для запуска JavaScript на сервере. Например, расширение на стороне сервера позволяет приложению соединяться с базой данных, обеспечивать непрерывность информации между вызовами приложения или выполнять манипуляции над файлами на сервере.</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="JavaScript_and_Java">
+                <header>JavaScript and Java</header>
+                <article>
+                    <p>JavaScript и Java похожи в одних отношениях, но фундаментально отличны в других. Javascript напоминает Java, но не имеет статической типизации и строгой проверки типов, которыми обладает Java. JavaScript следует большей части синтаксиса Java в выражениях, соглашениях об именовании и основного потока управления конструкциями, поэтому он был переименован из LiveScript в JavaScript.</p>
+                    <p>В отличие от системы скомпилированных классов Java, построенной на объявлениях, JavaScript поддерживает систему исполнения, основанную на небольшом числе типов данных, представляющих числовые, логические и строковые значения. JavaScript имеет объектную модель на базе прототипов вместо более общей модели на базе классов. Модель объектов на базе прототипов предоставляет динамическое наследование, т.е. то, что наследуется, может отличаться для отдельных объектов. JavaScript также поддерживает функции без каких-либо специальных декларативных требований. Функции могут быть свойствами объектов, выполняться как свободно-типизированные методы.</p>
+                    <p>По сравнению с Java, JavaScript является языком с очень свободной формой. Вам не надо объявлять переменные, классы и методы. Вам не надо беспокоиться о том, являются ли методы публичными (public), приватными (private) или защищенными (protected), а также вам не надо реализовывать интерфейсы. Переменные, параметры и возвращаемые функциями типы не являются явно типизированными.</p>
+                </article>
+            </section>
+            <section class="main-section" id="Getting_started_with_Javascript">
+                <header>Getting started with Javascript</header>
+                <article>
+                    <p>Все, что вам нужно для знакомства с JavaScript — это современный браузер. Данное руководство включает некоторые возможности JavaScript, которые на данный момент доступны только в последних версиях Firefox, поэтому рекомендуется использовать последнюю версию Firefox.</p>
+                    <p>В Firefox встроены два инструмента, полезных для экспериментирования с JavaScript: Web Console и Scratchpad.</p>
+                    <p><b>Web Console</b> отображает информацию о текущей загруженной веб-странице, а также включает командную строку, которую вы можете использовать, чтобы выполнить выражения JavaScript на текущей странице. Чтобы открыть Web Console, выберите "Web Console" из меню "Web Developer", которое находится под меню "Tools" в Firefox. Консоль появится в нижней части окна браузера. Вдоль нижней части консоли размещается командная строка, которую вы можете использовать для ввода JavaScript, результат выполнения появится на панели выше:</p>
+                    <img src="https://mdn.mozillademos.org/files/7363/web-console-commandline.png" alt="Web Console">
+                    <p>Web Console отлично подходит для выполнения одиночных строк JavaScript, но хотя вы можете выполнить и несколько строк, это не очень удобно, к тому же вы не можете сохранить ваш код, используя Web Console. Поэтому для более комплексных примеров <b>Scratchpad</b> является более подходящим инструментом.</p>
+                    <p>Чтобы открыть Scratchpad, выберите "Scratchpad" из меню "Web Developer", которое находится под меню "Tools" в Firefox. Блокнот будет открыт в отдельном окне, вы можете использовать его для создания и выполнения JavaScript в браузере. Вы также можете сохранять ваши скрипты на жесткий диск, а потом загружать их.</p>
+                    <p>Если вы выберете "Display", то код в вашем блокноте будет выполнен в браузере, а результат вставлен обратно в блокнот как комментарий:</p>
+                    <img src="https://mdn.mozillademos.org/files/7365/scratchpad.png" alt="Scratchpad">
+                    <b>Hello world</b>
+                    <p>Откройте Web Console или Scratchpad и создайте вашу первую "Hello world" программу на JavaScript:</p>
+                    <ul class ="nostyle">
+                        <li><code>function greetMe(user) {</code></li>
+                        <li>&nbsp;&nbsp;<code>return "Hi " + user;</code></li>
+                        <li><code>}</code></li>
+                        <li></li>
+                        <li><code>greetMe("Alice"); // "Hi Alice"</code></li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="Basics">
+                <header>Basics</header>
+                <article>
+                    <p>JavaScript заимствует большую часть синтаксиса из Java, но также испытал влияние таких языков, как Awk, Perl и Python.</p>
+                    <p>JavaScript <b>чувствителен к регистру</b> и использует кодировку символов <b>Unicode</b>.</p>
+                    <p>В JavaScript инструкции называются <code>statements</code> и разделяются точкой с запятой (<code>;</code>). Пробел (<code>space</code>), табуляция (<code>tab</code>) и перевод строки (<code>newline</code>) называются пробельными символами (<code>whitespace</code>). Исходный текст скриптов на JavaScript сканируется слева направо и конвертируется в последовательность входных элементов, являющихся токенами (tokens), управляющими символами, символами конца строки, комментариями или пробельными символами. ECMAScript также определяет некоторые ключевые слова и литералы и устанавливает правила для автоматической вставки точек с запятой (ASI), чтобы обозначить конец инструкций (statements). Однако, рекомендуется всегда ставить точку с запятой в конце каждой инструкции вручную, чтобы избежать побочных эффектов.</p>
+                </article>
+            </section>
+            <section class="main-section" id="Data_type_conversion">
+                <header>Data type conversion</header>
+                <article>
+                    <p>JavaScript — это динамически типизированный язык. Это означает, что вам не нужно указывать тип данных переменной, когда вы ее объявляете, типы данных преобразуются автоматически по мере необходимости во время выполнения скрипта. Так, например, вы можете определить переменную следующим образом:</p>
+                    <code>var answer = 42;</code>
+                    <p>А позже вы можете присвоить этой переменной строковое значение, например:</p>
+                    <code>answer = "Thanks for all the fish...";</code>
+                    <p>Поскольку JavaScript является динамически типизированным, это присваивание не вызовет сообщения об ошибке.</p>
+                    <p>В выражениях, включающих числовые и строковые значения с оператором +, JavaScript преобразует числовые значения в строковые. Например:</p>
+                    <code>x = "The answer is " + 42 // "The answer is 42"</code><br>
+                    <code>y = 42 + " is the answer" // "42 is the answer"</code>
+                    <p>В выражениях с другими операторами JavaScript не преобразует числовые значения в строковые. Например:</p>
+                    <code>"37" - 7 // 30</code><br>
+                    <code>"37" + 7 // "377"</code>
+                </article>
+            </section>
+
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
