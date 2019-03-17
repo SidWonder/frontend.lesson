@@ -1,4 +1,24 @@
 ***
+#####  DAY 29:  [17.03.19]
+**Что сделано:**  
+- [ ] FreeCodeCamp. Начал Project4 Technical Documentation Page  
+
+**В работе:**  
+- [FreeCodeCamp](https://learn.freecodecamp.org/)
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+- LostSchool: Основы верстки
+
+**Комментарий:**  
+Начал работать над проектом 4 по курсу FCC. Верстаю страницу технической документации 
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 85мин.       |
+
+***
+#####  Отдых  [16.03.19]
+
+***
 #####  DAY 28:  [15.03.19]
 **Что сделано:**  
 - [x] FreeCodeCamp. Выполнил Project3: Landing Page  
