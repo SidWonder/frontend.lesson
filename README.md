@@ -1,4 +1,24 @@
 ***
+#####  DAY 30:  [18.03.19]
+**Что сделано:**  
+- [x] FreeCodeCamp. Закончил Project4: LTechnical Documentation Page    
+
+**В работе:**  
+- [FreeCodeCamp](https://learn.freecodecamp.org/)  
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)  
+- LostSchool: Основы верстки  
+
+**Комментарий:**  
+Закончил четвертый проект по курсу FreeCodeCamp. Сверстал страницу технической документации.
+Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day30)  
+Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day30/index.html)  
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 42мин.       |
+
+
+***
 #####  DAY 29:  [17.03.19]
 **Что сделано:**  
 - [ ] FreeCodeCamp. Начал Project4 Technical Documentation Page  
