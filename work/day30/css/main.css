@@ -1,33 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
 
 body {
-    background-color: rgba(173, 216, 230,0.8)
+    margin-top:0;
+    margin-left:0;
+    background-color: rgba(173, 216, 230,0.8);
+    font-family: 'Exo 2', sans-serif;
 }
 
 .container {
     display:flex;
     flex-direction: row;
     width: 100%;
+    min-width: 300px;
 }
 
 .header {
     flex:1;
-    margin-left: 10px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 5px;
     min-width: 250px;
+    border: 1px solid black;
 }
 
 #navbar {
     position: fixed;
+    font-family: 'VT323', monospace;
 }
 
 #navbar header {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
 #navbar ul {
     padding-left:0;
-    font-size: 18px;
+    font-size: 19px;
+}
+
+#navbar ul li{
+    padding-top: 5px;
 }
 
 #navbar ul li::before{
@@ -59,4 +73,63 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+@media (max-width: 1200px){
+    .container {
+        flex-direction: column;
+    }
+
+    #navbar {
+        padding-top: 10px;
+        text-align: center;
+        position: static;
+        font-family: 'VT323', monospace;
+    }
+
+    #navbar ul li::after{
+        content: " - ";
+    }
+
+}
+
+@media (min-width: 1200px){
+    #navbar header {
+    font-size: 26px;
+}
+section {
+    font-size: 18px;
+}
+}
+
+@media (min-width: 1300px){
+#navbar ul {
+    padding-left:0;
+    font-size: 23px;
+}
+section {
+    font-size: 20px;
+}
+section header {
+    font-size: 27px;
+}
+
+}
+
+@media (min-width: 1400px){
+    #navbar header {
+    font-size: 32px;
+}
+#navbar ul {
+    padding-left:0;
+    font-size: 25px;
+}
+
 }
