@@ -1,5 +1,25 @@
 
 ***
+#####  DAY 32:  [20.03.19]
+**Что сделано:**  
+- [x] FreeCodeCamp. Закончил Project5: Personal Portfolio Webpage     
+
+**В работе:**  
+- [FreeCodeCamp](https://learn.freecodecamp.org/)  
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)  
+- LostSchool: Основы верстки  
+
+**Комментарий:**  
+Закончил пятый проект по курсу FreeCodeCamp. Сверстал страницу-портфолио.  
+Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day31)  
+Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day31/index.html)  
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| FreeCodeCamp  | 93мин.       |
+
+
+***
 #####  DAY 31:  [19.03.19]
 **Что сделано:**  
 - [ ] FreeCodeCamp. Начал Project5 Personal Portfolio Webpage 
@@ -14,7 +34,7 @@
 
 | Задача:       | Время:       |
 | ------------- | -------------|
-| FreeCodeCamp  | 60мин.       |
+| FreeCodeCamp  | 60 мин.      |
 
 ***
 #####  DAY 30:  [18.03.19]
