@@ -151,10 +151,12 @@ h2::after{
 
     height: 100px;
     width: 100px;
-    background-color: red;
+    background-color: #4B0082;
+    opacity: .8;
     margin-right: auto;
     margin-left: auto;
     border-radius: 50px;
+    border: 1px solid black;
 }
 
 .box-3_link a {

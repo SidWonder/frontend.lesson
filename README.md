@@ -19,7 +19,7 @@
 ***
 #####  DAY 30:  [18.03.19]
 **Что сделано:**  
-- [x] FreeCodeCamp. Закончил Project4: LTechnical Documentation Page    
+- [x] FreeCodeCamp. Закончил Project4: Technical Documentation Page    
 
 **В работе:**  
 - [FreeCodeCamp](https://learn.freecodecamp.org/)  
