@@ -3,7 +3,7 @@ var gulp       	 = require('gulp'), // Подключаем Gulp
     cache        = require('gulp-cache'), // Подключаем библиотеку кеширования
     browserSync  = require('browser-sync'), // Подключаем Browser Sync 
     plumber      = require("gulp-plumber"), //предохранитель для остановки гальпа  
-    _day_        = 'work/day31';
+    _day_        = 'work/day32';
 
 
 

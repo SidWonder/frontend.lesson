@@ -1,0 +1,64 @@
+
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cart {
+    width: 250px;
+    min-width: 250px;
+    height: 470px;
+    border: 2px solid black;
+    padding: 7px;
+    box-shadow: 0 10px 15px 5px;
+}
+
+.cart h2 {
+    margin-top: 3px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cart-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
+    font-size: 11px;
+}
+
+.list-action li {
+    list-style-image: url(../media/li-action.png);
+}
+
+.list-danger li {
+    list-style-image: url(../media/li-danger.png);
+}
+
+@keyframes slideImages1 {
+    0% {
+        background: url(../media/uzkxvat1.jpg) no-repeat;
+        background-size: contain;
+    }
+    100%{
+        background: url(../media/uzkxvat2.jpg) no-repeat;
+        background-size: contain;
+    }
+
+}
+.cart-img1 {
+    display: block;
+    width: 98%;
+    height: 150px;
+    margin: 0 auto;
+
+    animation-name: slideImages1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
