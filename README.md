@@ -1,4 +1,30 @@
 ***
+#####  DAY 36:  [24.03.19]
+**Что сделано:**  
+- [ ] Html+CSS Работа над конспектом.      
+
+**В работе:**  
+- [FreeCodeCamp](https://learn.freecodecamp.org/)  
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)  
+- LostSchool: Основы верстки  
+
+**Комментарий:**  
+Работал над конспектом по CSS.   
+
+***
+#####  DAY 35:  [23.03.19]
+**Что сделано:**  
+- [ ] Html+CSS Работа над конспектом.      
+
+**В работе:**  
+- [FreeCodeCamp](https://learn.freecodecamp.org/)  
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)  
+- LostSchool: Основы верстки  
+
+**Комментарий:**  
+Сегодня продолжал работать над конспектом. Начал работать над конспектом по CSS тегам. 
+
+***
 #####  DAY 34:  [22.03.19]
 **Что сделано:**  
 - [ ] Html+CSS Работа над конспектом.      
