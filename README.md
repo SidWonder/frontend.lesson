@@ -1,4 +1,23 @@
 ***
+#####  DAY 40:  [28.03.19]
+**Что сделано:**  
+- [x] Html+CSS: Twitter - Копия страницы входа.      
+
+**В работе:**  
+- [FreeCodeCamp](https://learn.freecodecamp.org/)  
+- [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)  
+- LostSchool: Основы верстки  
+
+**Комментарий:**  
+Верстал копию страницы входа Twitter. Верстал не 1 к 1, иконки использовал другие, под мелкие экраны не адаптировал.  
+Описание: [>>Здесь<<](https://github.com/tanderbull/frontend.lesson/tree/master/work/day40)   
+Проект: [>>Здесь<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day40/index.html)  
+
+| Задача:       | Время:       |
+| ------------- | -------------|
+| Html+Css      | 178мин.      |
+
+***
 #####  DAY 39:  [27.03.19]
 **Что сделано:**  
 - [x] Html+CSS Работа над конспектом.      
