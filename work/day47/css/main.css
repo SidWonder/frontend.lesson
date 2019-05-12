@@ -1,0 +1,328 @@
+/*****************
+center__row    - Выравнивание по центру; (главная ось row)
+center__column - Выравнивание по центру; (главная ось column)
+ex1__bg  - Заливка в блоке решения
+ex__h1 |ex__h2|ex__h3 - Заголовки
+
+Цвет текста:
+ex__green
+ex__olive - коричневый
+
+Размер шрифта:;
+ex__18
+ex__20
+
+ex__code - Код блочный
+ex__code_i - Код строчный
+
+*****************/
+/*Main*/
+body {margin: 0; font-size: 18px;}
+
+.tittle {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: row;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: row;
+    align-items: center;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: black;
+}
+
+h3>a {
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.exercise {
+    width: 80%;
+    max-width: 1000px;
+    border: blue dotted 1px;
+    padding: 10px;
+}
+.answer {
+    width: 80%;
+    max-width: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
+    //align-self: flex-start;
+}
+
+.condition {
+    color: maroon;
+    text-shadow: 1px 2px 4px #000;
+}
+
+.wrap {
+    position: fixed;
+    background-color: grey;
+    opacity: .1;
+    height: 100vh;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 10px;
+    position: absolute;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.box {margin: 10px;}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+.answer > img {
+    margin:0;
+}
+
+.border {
+    display: inline-block;
+    font-size: 36px;
+}
+
+.center__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/********* SIZE *******/
+.ex__18 {
+    font-size: 18px;
+}
+
+.ex__20 {
+    font-size: 20px;
+}
+
+/********* HEADING *******/
+.ex__h1 {
+    display: block;
+    font-size: 2em;
+    /*margin-top: 0.67em;*/
+    /*margin-bottom: 0.67em;*/
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.ex__h2 {
+    display: block;
+    font-size: 1.5em;
+    /*margin-top: 0.83em;*/
+    /*margin-bottom: 0.83em;*/
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.ex__h3 {
+    display: block;
+    font-size: 1.17em;
+    /*margin-top: 1em;*/
+    /*margin-bottom: 1em;*/
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+/********* COLOR *******/
+.ex__green {
+    color: green;
+}
+
+.ex__olive {
+    color: olive;
+}
+
+
+
+
+
+
+
+
+/********* Exercise *******/
+/*Exercise-1*/
+.ex1__bg {
+    background-image: url(../img/1bg.png);
+}
+
+.ex1__rect {
+    width: 250px;
+    height: 120px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+/*Exercise-2*/
+.ex2__bg {
+    background-image: url(../img/2bg1.png);
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex2__rect {
+    background-image: url(../img/2bg2.png);
+    width: 300px;
+    height: 200px;
+}
+/*Exercise-3*/
+.ex3__center {
+    width: 100px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.ex3__up {
+    text-transform: uppercase; 
+    color: red;
+    font-size: 28px;
+}
+
+.ex3__text {
+    color: blue;
+}
+/*Exercise-7*/
+.ex7__bg {
+    background-color: #FFDEAD;
+}
+
+.ex7__border {
+    border-left: 3px dotted blue;
+    margin-left: 30px;
+    padding-left: 20px;
+    width: 250px;
+}
+
+.ex7__p {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 1.5em;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+/*Exercise-8*/
+.ex8__bg {
+    background-color: #FFDEAD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ex8__box {
+    font-size: 16px;
+    width: 350px;
+    background-color: black;
+    color: orange;
+    margin: 20px 10%;
+    border: 2px solid red;
+    padding: 15px;
+}
+/*Exercise-9*/
+.ex9__bg {
+    background-color: #008B8B;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ex9__box {
+    font-size: 16px;
+    width: 400px;
+    height: 75px;
+    background-color: black;
+    color: orange;
+    margin: 20px 10%;
+    border: 2px solid red;
+    padding: 15px;
+}
+
+.ex9__b1 {
+    overflow-y: scroll;
+}
+
+.ex9__b2 {
+    overflow: hidden;
+}
+
+.ex9__b3 {
+    overflow-x: scroll;
+}
+/*Exercise-10*/
+.ex10__bg {
+    background-color: #FFF;
+}
+
+.ex10__p {
+    width: 550px;
+    font-size: 16px;
+    padding: 10px 30px 10px 30px;
+    text-align: justify;
+    font-family: sans-serif;
+
+}
+
+.ex10__port { color:#088A85; }
+.ex10__loc {color: #6E6E6E;}
+.ex__code {
+    display: block;
+    background-color: #F2F2F2;
+    border: 1px solid #DCDCDC;
+    font-size: 12px;
+    padding: 5px;
+    overflow: auto; 
+    white-space: nowrap;
+}
+
+.ex__code_i {
+    display: inline-block;
+    background-color: #F2F2F2;
+    border: 1px solid #DCDCDC;
+    font-size: 12px;
+    padding: 5px;
+}
+
+/*Exercise-*/
+/*Exercise-*/
+/*Exercise-*/
+/*Exercise-*/
+/*Exercise-*/
