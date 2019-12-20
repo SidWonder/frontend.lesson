@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(176, 207, 147);
+}
+main {
+  margin: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+main {
+  padding-left: 260px;
+}
+.full {
+  padding-left: 260px;
+  display: inline-block;
+}
+
+nav {
+  padding-right: 5px;
+  position: fixed;
+  top: 10px;
+  border: solid 1px black;
+}
+
+ul > li > ul {
+  padding-left: 15px;
+}
+
+.note {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.poster {
+  display: inline-block;
+  padding-left: 260px;
+  margin: 15px;
+  width: 50%;
+}
+
+h2 {
+  color: blue;
+}
