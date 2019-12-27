@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: Tahoma;
+    color: #000000;
+}
+
+button:focus {
+    outline: none;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 803px;
+    padding-top: 77px;
+    padding-bottom: 96px;
+}
+
+.header-img {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.header-img img {
+    width: 404px;
+    height: 630px;
+}
+.header-text {
+    display: inline-block;
+    max-width: 526px;
+    vertical-align: middle;
+    margin-left: 75px;
+}
+.header-text__tittle {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.header-text__subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.header-text__descr {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 37px;
+}
+.header-text__price {
+    color: #313131;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 53px;
+}
+.button {
+    width: 175px;
+    height: 67px;
+    border-radius: 5px;
+    background-color: #f05a22;
+
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.button-o {
+    width: 287px;
+    height: 67px;
+    border-radius: 5px;
+    border: 2px solid #f05a22;
+    background-color: #fff;
+
+    color: #f05a22;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.features {
+    height: 408px;
+    border: 1px solid #ffffff;
+    background-color: #f2f2f2;
+}
+
+.features_text {
+    text-align: center;
+    padding-top: 89px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 91px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-item {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 196px;
+}
+
+.box-item:nth-child(1) {
+    max-width: 185px;
+}
+.box-item:nth-child(2) {
+    max-width: 245px;
+}
+
+.box-img {
+    margin-bottom: 16px;
+}
+
+.box-text {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.buyers {
+    height: 859px;
+    border: 1px solid #ffffff;
+    margin-bottom: 71px;
+}
+
+.buyers-text {
+    text-align: center;
+    padding-top: 89px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 69px;
+}
+
+.buyers-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buyers-box img {
+    margin-bottom: 40px;
+}
