@@ -1,13 +1,14 @@
 *
   font-family: "Roboto", sans-serif
 
+
 .header
   position: relative
 
 .nav
   position: fixed
   width: 100%
-  z-index: 2
+  z-index: 5
   height: 50px
   background-color: #212121
 
@@ -258,4 +259,183 @@ a:hover
       img
         max-width: 100%
         padding: 6px
+      &:hover
+        background-color: #125b69
+        transition: 0.3s all
 
+.pick
+  position: relative
+  min-height: 896px //499+397
+  background: url(../img/decor/section3.jpg) center (center / cover) no-repeat
+  padding: 57px 0 138px 0 
+
+  &__black
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 499px 
+    background-color: #070716
+    z-index: 1
+
+
+  &__first
+    position: relative
+    margin: 0 auto 19px auto
+    width: 112px
+    height: 24px
+    background-color: #fff
+    text-align: center
+    z-index: 2
+
+  &__label
+    color: #000
+    font-size: 11px
+    font-weight: 400
+    text-transform: uppercase
+    display: inline-block
+    vertical-align: middle
+    z-index: 2
+
+  &__tittle
+    position: relative
+    color: #fff
+    font-size: 38px
+    font-weight: 700
+    text-transform: uppercase
+    text-align: center
+    margin-top: 0
+    margin-bottom: -2px
+    z-index: 2
+    
+
+  &__subtittle
+    position: relative
+    color: #fff
+    font-size: 17px
+    font-weight: 400
+    text-align: center
+    margin-bottom: 56px
+    z-index: 2
+
+  &__car
+    display: block
+    position: relative
+    z-index: 3
+    margin: 0 auto
+
+  &__descr
+    color: #222222
+    font-size: 17px
+    font-weight: 300
+    text-align: center
+    //line-height: 24px
+
+.conditions
+  display: block
+  min-height: 918px
+  padding-top: 68px
+  padding-bottom: 84px
+  
+  &__first
+    margin: 0 auto 23px auto
+    width: 112px
+    height: 24px
+    background-color: #000000
+    text-align: center
+
+  &__label
+    color: #ffffff
+    font-size: 11px
+    font-weight: 400
+    text-transform: uppercase
+    display: inline-block
+    vertical-align: middle
+
+  &__tittle
+    color: #222222
+    font-size: 38px
+    font-weight: 700
+    text-transform: uppercase
+    text-align: center
+    margin-top: 0
+
+  &__item
+    margin-bottom: 33px
+
+    &__nmb
+      margin-bottom: 0
+
+  &__item__title
+    color: #1ca8c3
+    font-size: 22px
+    font-weight: 400
+    margin-bottom: 16px
+
+  .small
+      color: #1ca8c3
+      font-weight: 300
+
+  &__item__list
+    li
+      font-size: 17px
+      font-weight: 300
+      list-style: none
+      margin-bottom: 10px
+      position: relative
+      &::before
+        content: ''
+        display: block
+        position: absolute
+        left: -32px
+        top: 3px
+        width: 21px
+        height: 20px
+        background: url(../img/icons/done_blue.png) center (center / cover)
+
+  &__item__title__red
+    color: #ff5656
+    font-size: 22px
+    font-weight: 400
+
+
+  &__item__list__red
+    li
+      font-size: 17px
+      font-weight: 300 
+      margin-bottom: 10px
+      list-style: none
+      position: relative
+
+      &::before
+        content: ''
+        display: block
+        position: absolute
+        left: -32px
+        top: 3px
+        width: 21px
+        height: 20px
+        background: url(../img/icons/done_red.png) center (center / cover)
+
+
+.map 
+  position: relative
+  background: url(../img/decor/section_map.jpg) center (center / cover)
+  padding: 49px 0
+  min-height: 721px
+
+  &__first
+    width: 76px
+    height: 24px
+
+  &__link
+    display: block
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 49px
+    font-size: 15px
+    font-weight: 400
+    text-transform: uppercase
+    color: #1fbad6
+    text-align: center
