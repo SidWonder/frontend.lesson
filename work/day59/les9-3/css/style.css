@@ -16,9 +16,12 @@
 }
 
 .container {
+  display: flex;
+  justify-content: center;
   position: relative;
-  min-width: 1200px;
-  margin-left: 390px;
+  /*min-width: 1200px;*/
+  /*margin-left: 390px;*/
+  margin: 0 auto;
 }
 
 .title {
@@ -92,8 +95,73 @@
 }
 
 .girl {
-  position: absolute;
-  top: -138px;
-  //right: 111px;
-  left: 825px;
+  margin-left: 70px;
+  background: url("../img/bg/bg_main.jpg") center center/cover no-repeat;
+  transform: translateY(-140px);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    min-width: 1200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .border {
+    height: 950px;
+  }
+
+  .box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 170px;
+  }
+
+  .btn-purple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 auto;
+  }
+
+  .box-tooth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .btn {
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
+
+  .girl {
+    position: absolute;
+    //margin-left: 0;
+    background: url("../img/bg/bg_main.jpg") center center/cover no-repeat;
+    /*transform: translateY(-140px);*/
+    transform: translate(-80px, -170px);
+  }
+
+  .girl img {
+    width: 230px;
+  }
+} /* Other desktops */
+
+@media (min-width: 1200px) and (max-width: 1420px) {
+  .btn {
+    margin-bottom: 20px;
+  }
+
+  .btn-o {
+    margin-left: 0px;
+  }
 }
