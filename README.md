@@ -1,3 +1,31 @@
+##### DAY 59 [13.01.2020]
+
+**Что сделано:**
+
+- КУРС: WEB-РАЗРАБОТЧИК 2019 (31/67)
+- КУРС: Веб-разработчик 12.0 (9/21)
+
+<!--
+**В работе:**
+
+-   КУРС: WEB-РАЗРАБОТЧИК 2019
+-   КУРС: Веб-разработчик 12.0
+
+**На паузе:**
+-   [FreeCodeCamp](https://learn.freecodecamp.org/)
+-   [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+-   LostSchool: Основы верстки
+-   Book: Б.Лоусон, Р.Шарп "Изучаем HTML5. Библиотека специалиста" (196/286)
+ -->
+
+**Комментарий:** Прошел 9 урок по курсу "Веб-разработчик 12.0"  
+Сверстал три макета:  
+[Первый](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day59/les9-1/index.html), простая верстка.  
+[Второй](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day59/les9-2/index.html), верстка на FlexBox.  
+[Третий](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day59/les9-3/index.html), верстка Pixel Perfect с адаптацией.
+
+---
+
 ##### DAY 58 [09.01.2020]
 
 **Что сделано:**
