@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.book {
+  min-height: 803px;
+  display: flex;
+  margin-top: 77px;
+}
+
+.book .box1 {
+  /**/
+  margin-bottom: 96px;
+}
+
+.box1 img {
+  max-width: 404px;
+  max-height: 630px;
+}
+
+.book .box2 {
+  margin-top: 48px;
+  margin-left: 73px;
+}
+
+.title {
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.descr {
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  max-width: 526px;
+  margin-bottom: 32px;
+}
+
+.price {
+  color: #313131;
+  font-family: Tahoma;
+  font-size: 48px;
+  font-weight: 400;
+  /*line-height: 27px;*/
+  margin-bottom: 50px;
+}
+
+.btn {
+  width: 175px;
+  height: 67px;
+  border-radius: 5px;
+  background-color: #f05a22;
+
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: 700;
+  outline: none;
+}
+
+.btn-o {
+  width: 287px;
+  height: 67px;
+  border: 2px solid #f05a22;
+  background-color: transparent;
+  color: #f05a22;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-left: 40px;
+}
+
+.pays {
+  min-height: 408px;
+  border: 1px solid #ffffff;
+  background-color: #f2f2f2;
+}
+
+.pays-title {
+  margin-top: 89px;
+  margin-bottom: 91px;
+  text-align: center;
+  color: #333333;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.pays-boxing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pays-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.pays-box-title {
+  margin-top: 10px;
+  text-align: center;
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.photo {
+  min-height: 859px;
+  padding-top: 75px;
+  padding-bottom: 111px;
+}
+
+.photo-title {
+  text-align: center;
+  color: #333333;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 69px;
+}
+
+.photo-boxing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo-boxing img {
+  max-width: 261px;
+  max-height: 261px;
+  margin-bottom: 40px;
+}
