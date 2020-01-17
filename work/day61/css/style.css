@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Roboto Black';
+  src: url("../fonts/Roboto-Black.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* COLORS * */
+.btn {
+  outline: none;
+  border: none;
+  background-color: #ff9d00;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.header {
+  margin-top: 59px;
+  height: 135px;
+}
+
+.header-logo {
+  width: 191px;
+  height: 61px;
+}
+
+.header-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-contacts__phone {
+  font-size: 22px;
+  margin-right: 13px;
+}
+
+.header-contacts__phone:nth-child(1)::after {
+  display: table;
+  content: '';
+  height: 32px;
+  opacity: 0.2;
+  border: 2px solid #cfcfd0;
+  float: right;
+  margin-left: 13px;
+}
+
+.header-contacts__phone:nth-child(2) {
+  margin-right: 27px;
+}
+
+.header-contacts__button {
+  width: 179px;
+  height: 45px;
+  font-weight: 400;
+}
+
+.header-contacts__button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=style.css.map */
