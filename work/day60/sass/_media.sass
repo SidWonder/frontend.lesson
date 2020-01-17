@@ -1,0 +1,380 @@
+@media (max-width: 1200px)
+  .menu
+    &__item
+      padding-right: 19px
+    &__link
+      font-size: 13px   
+  .subheader__call__text
+    padding-right: 0
+
+  .promo
+    &__header
+      font-size: 50px
+    
+  .card
+    &__box
+      max-width: 300px
+    &__icon
+      align-self: flex-start
+
+  .mobile
+    &__box
+      padding: 30px
+
+  .pick
+    padding-bottom: 60px
+    min-height: 830px
+
+  .conditions
+    &__box
+      display: flex
+      justify-content: space-around
+      flex-direction: row
+    &__item
+      max-width: 400px
+      display: flex
+      justify-content: flex-start
+      flex-direction: column
+      align-items: space-around
+
+  .map
+    min-height: 400px
+
+  .footer
+    &__wrapp-apps
+      width: 100%
+      display: flex
+      flex-direction: row
+      justify-content: center
+
+    &__apps
+      width: 210px
+
+    &__apps
+      position: static
+      margin-bottom: 20px
+    &__social
+      display: flex
+      flex-direction: row
+      justify-content: center
+      position: static
+      margin-bottom: 20px
+
+@media (max-width: 991px)
+  .menu
+    &__item
+      padding-right: 10px
+    &__link
+      font-size: 10px
+  .subheader
+    &__logo
+      img
+        width: 100%
+    &__call__phone
+      font-size: 18px
+    &__button
+      width: 100%
+      height: 40px
+      margin-top: 21px
+
+  .promo
+    &__header
+      font-size: 40px
+    &__subheader
+      font-size: 26px
+
+  .card
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    &__icon
+      align-self: center
+      margin-bottom: 15px
+
+  .pick
+    &__car
+      margin-left: -40px
+
+  .footer
+    &__apps
+      width: 276px
+      bottom: 27px
+      right: 250px
+    &__lang
+      padding-bottom: 120px
+    &__social
+      left: 310px
+      bottom: 75px
+
+@media (max-width: 767px)
+  .menu
+    position: fixed
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    top: 0
+    left: -100%
+    width: 50%
+    height: 100%
+    padding: 20px 15px
+    background-color: rgba(0, 0, 0, 0.8)
+    transition: 0.6s all
+    &__active
+      left: 0
+    &__item
+      padding-right: 0
+      border: none
+      margin: 10px 0
+    &__link
+      font-size: 20px
+
+  .hamburger
+    display: block
+    position: absolute
+    right: 10px
+    top: 50%
+    transform: translateY(-50%)
+    width: 26px
+    height: 12px
+    span
+      display: block
+      height: 2px
+      width: 100%
+      background-color: #fff
+      margin-bottom: 2px
+      transition: 0.5s all
+    &_active
+      span
+        margin-bottom: -2px
+        &:nth-child(1)
+          transform: translateY(3px) rotate(-45deg)
+        &:nth-child(2)
+          display: none
+        &:nth-child(3)
+          transform: translateY(3px) rotate(45deg)
+    
+  .xs-hidden
+    display: none
+  .xs-visible
+    display: block
+  .subheader
+    &__call
+      &__phone
+        display: block
+        margin-top: 10px
+        color: #ffffff
+        font-size: 16px
+        font-weight: 400
+        text-transform: uppercase
+        text-align: center
+    &__button
+      display: block
+      width: 200px
+      height: 40px
+      margin: 0 auto
+
+  .promo
+    &__header
+      line-height: 45px
+
+  .card
+    &__box
+      max-width: 435px
+    &__header
+      text-align: center
+  
+
+  .mobile
+    &__tittle
+      font-size: 31px
+
+  .pick
+    &__car
+      margin-left: 0
+      width: 100%
+    &__tittle
+      line-height: 40px
+      margin-bottom: 10px
+
+  .footer
+    &__apps
+      width: 276px
+      bottom: 27px
+      right: 155px
+    &__social
+      left: 210px
+      bottom: 75px
+
+@media (max-width: 575px)
+  .nav
+    height: 30px
+  .menu
+    width: 85%
+    &__item
+      width: 100%
+      text-align: center
+    &__link
+      display: block
+  .subheader
+    height: 60px
+    top: 30px
+    &__call
+      &__phone
+        margin-top: 6px
+
+    &__button
+      width: 110px
+      height: 22px
+      font-size: 10px
+      font-weight: 400
+      text-transform: uppercase
+      margin-top: 1px
+  .promo
+    min-height: 340px
+    padding-top: 147px
+    padding-bottom: 35px
+    &__header
+      font-size: 36px
+    &__subheader
+      font-size: 21px
+      line-height: 25px
+    &__descr
+      display: none
+    &__btm
+      margin-top: 70px
+        
+  .causes
+    min-height: 899px
+    &__first
+      margin-top: 22px
+      margin-bottom: 15px
+    &__tittle
+      font-size: 15px
+      margin-bottom: 30px
+  .card
+    &__box
+      max-width: 100%
+      margin-left: 0
+    &__header
+      text-align: left
+
+
+  .mobile
+    padding-top: 20px
+    padding-bottom: 24px
+    &__first
+      margin-bottom: 0
+    &__tittle
+      font-size: 16px
+      padding-top: 15px
+    &__subtittle
+      font-size: 14px
+      font-weight: 400
+    &__item
+      width: 290px
+      height: 254px
+      &__subtitle
+        padding-top: 81px
+        padding-right: 46px 
+        padding-left: 48px
+        padding-bottom: 77px
+        font-size: 17px
+        font-weight: 400
+        line-height: 30px
+
+  .pick
+    min-height: 425px
+    margin-bottom: 0
+    padding-bottom: 0
+    &__first
+      margin-bottom: 35px
+    &__tittle, &__subtittle
+      display: none
+    &__descr
+      margin-top: 23px
+      color: #ffffff
+      font-size: 17px
+      font-weight: 300
+      line-height: 24px
+      margin-bottom: 23px
+    &__car
+      width: 300px
+      height: 190px
+      margin-bottom: 23px
+    &__black
+      height: 425px
+
+  .conditions
+    padding-top: 25px
+    padding-bottom: 26px
+    &__first
+      margin-bottom: 15px
+    &__tittle
+      font-size: 16px
+      font-weight: 700
+      margin-bottom: 22px
+    &__item
+      &__title
+        font-size: 16px
+        margin-bottom: 5px
+      &__list
+        li
+          font-size: 14px
+          margin-bottom: 5px
+      &__title__red
+        font-size: 16px
+        margin-bottom: 5px
+      &__list__red
+        li
+          font-size: 14px
+          margin-bottom: 5px
+  .small
+    font-size: 14px
+  .map
+    padding-top: 25px
+    padding-bottom: 0
+    min-height: 340px
+    &__first
+      margin-bottom: 15px
+    &__tittle
+      display: block
+      font-size: 16px
+      margin-bottom: 10px
+      line-height: 16px
+    &__subtittle
+      display: block
+      font-size: 14px
+      line-height: 14px
+      margin-bottom: 216px
+    &__link
+      position: relative
+      margin-bottom: 30px
+
+  .footer
+    &__line
+      width: 253px
+      height: 4px
+      margin-bottom: 22px
+    &__menu
+      width: 100%
+      margin-bottom: 10px
+      a
+        font-size: 13px
+        font-weight: 300
+        line-height: 68px
+        margin-right: 4px
+        margin-left: 4px
+        line-height: 13px
+    &__submenu
+      a
+        font-size: 11px
+        &:nth-child(1)
+          padding-right: 37px
+        &:nth-child(2)
+          text-align: right
+          margin-right: 0
+    &__lang
+      padding-bottom: 20px
+    &__apps
+      width: 276px
