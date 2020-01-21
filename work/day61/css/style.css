@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Roboto Black';
   src: url("../fonts/Roboto-Black.woff") format("woff");
@@ -19,9 +20,23 @@ body {
   font-size: 14px;
 }
 
+.btn:hover {
+  background-color: #ffa71a;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 .header {
-  margin-top: 59px;
-  height: 135px;
+  margin-top: 15px;
+  max-height: 100px;
+  margin-bottom: 15px;
 }
 
 .header-logo {
@@ -71,5 +86,106 @@ body {
   height: 20px;
   margin-right: 7px;
   vertical-align: middle;
+}
+
+.main {
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 60px;
+  background: #5f5f5f url(../img/decor/main_bg.jpg) center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  z-index: 1;
+  /*Затемнение фоpxнового изображения*/
+  /*Оформление главной картинки*/
+}
+
+.main::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.main-img {
+  position: relative;
+}
+
+.main-img::before {
+  position: absolute;
+  content: '';
+  z-index: -1;
+  width: 390px;
+  height: 390px;
+  left: 50%;
+  margin-left: -195px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.main-text__title {
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 5px;
+}
+
+.main-text__subtitle {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.main-text__form {
+  background-color: rgba(255, 255, 255, 0.2);
+  max-width: 535px;
+  padding-left: 27px;
+  padding-top: 27px;
+  padding-bottom: 32px;
+}
+
+.form-title {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-right: 87px;
+  line-height: 30px;
+}
+
+.form-title_upercase {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form__input {
+  width: 311px;
+  height: 56px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 21px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #373737;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+}
+
+.form__button {
+  width: 161px;
+  height: 56px;
+  font-size: 15px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.form__small {
+  font-size: 14px;
+  font-weight: 300;
 }
 /*# sourceMappingURL=style.css.map */
