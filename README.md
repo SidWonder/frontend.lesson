@@ -1,3 +1,30 @@
+##### DAY 17-18 (64-65) [24.01.2020-25.01.2020]
+
+**Что сделано:**
+
+- КУРС: WEB-РАЗРАБОТЧИК 2019 (44/67)
+- КУРС: Веб-разработчик 12.0 (13/21)
+
+<!--
+**В работе:**
+
+-   КУРС: WEB-РАЗРАБОТЧИК 2019
+-   КУРС: Веб-разработчик 12.0
+
+**На паузе:**
+-   [FreeCodeCamp](https://learn.freecodecamp.org/)
+-   [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+-   LostSchool: Основы верстки
+-   Book: Б.Лоусон, Р.Шарп "Изучаем HTML5. Библиотека специалиста" (196/286)
+ -->
+
+**Комментарий:**  
+Прошел 13 урок по курсу "Веб-разработчик 12.0".  
+[Сверстал сайт](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day61/index.html) по макету для дескоптной версии, за исключением двух блоков, где в дальнейшем будет использоваться JavaScript.  
+Так же приступил к изучению Javascript, сделал 2 несложных задания ([первое](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day64/les13-1/index.html), [второе](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day64/les13-2/index.html)). Ознакомился с основами работы с DOM деревом документа.
+
+---
+
 ##### DAY 15-16 (62-63) [16.01.2020-17.01.2020]
 
 **Что сделано:**
@@ -25,12 +52,14 @@
 
 **Интересный прием затемнения фона:**
 
+- Блоку внутри задать `position: relative;`
+
 ```CSS
 .header {
-  position:relative;
-  height:100vh;
+  position: relative;
+  height: 100vh;
   background: #fff url('img.jpg') center no-repeat;
-  background-size:cover;
+  background-size: cover;
   z-index: 0;
 }
 
@@ -42,7 +71,7 @@
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,0.6);
-	z-index:-1;
+	z-index: -1;
 }
 ```
 
