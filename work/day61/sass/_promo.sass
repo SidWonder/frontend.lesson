@@ -1,0 +1,75 @@
+.promo
+  height: 514px
+  background-color: #f4f4f4
+  &-item
+    margin-top: 50px
+    padding-right: 30px
+    text-align: center
+    &:last-child
+      padding-right: 0
+    &__tittle
+      font-size: 32px
+      font-weight: 900
+      //line-height: 20px
+      color: $active-color
+    &__desc
+      font-size: 18px
+      font-weight: 400
+      line-height: 20px
+      margin-bottom: 37px
+.box
+  &-item
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: center
+    background-color: $text-color-light
+    height: 132px
+    padding: 0
+    margin-bottom: 30px
+    &__img
+      display: flex
+      flex-direction: row
+      justify-content: flex-start
+      img
+        height: 50px
+        width: 50px
+    &__text
+      margin-top: 28
+      margin-left: 75px
+      margin-right: 19px
+      &::before
+        display: block
+        content: ""
+        position: absolute
+        background-image:url(../img/icons/promo-1.png) 
+        background-repeat: no-repeat
+        height: 50px
+        width: 50px
+        left: 13px
+        top: 33px
+    &__tittle
+      font-size: 15px
+      font-weight: 700
+    &__desc
+      font-size: 15px
+      font-weight: 300
+
+  &-2
+    .box-item__text::before
+      background-image:url(../img/icons/promo-2.png)
+  &-3
+    .box-item__text::before
+      background-image:url(../img/icons/promo-3.png)
+  &-4
+    .box-item__text::before
+      background-image:url(../img/icons/promo-4.png)
+  &-5
+    .box-item__text::before
+      background-image:url(../img/icons/promo-5.png)   
+      width: 52px    
+  &-6
+    .box-item__text::before
+      background-image:url(../img/icons/promo-6.png)
+
+
