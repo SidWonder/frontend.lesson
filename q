@@ -1,0 +1,751 @@
+[33mcommit 4735355e0b7de8d063ccd11fdc3868b78558883b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Andrey <andrey-trush@mail.ru>
+Date:   Wed Jan 29 18:04:12 2020 +0300
+
+    веб-разработчик 12.0: CardBoard - Закончил адаптив
+
+[33mcommit 0ea7e26e2f0b9947cf6c1eeed5a7d89b56c4f64d[m
+Author: Andrey <andrey-trush@mail.ru>
+Date:   Tue Jan 28 16:50:41 2020 +0300
+
+    веб-разработчик 12.0: CardBoard - Добавил меню
+
+[33mcommit 503a2c1b68359f3068d99b97ee5958ecff6fbea2[m
+Author: Andrey <andrey-trush@mail.ru>
+Date:   Tue Jan 28 15:46:34 2020 +0300
+
+    веб-разработчик 12.0: CardBoard - Сверстал слайдеры
+
+[33mcommit 28d8781ea41cf87662009a59ab41ceead5d946f8[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Andrey <andrey-trush@mail.ru>
+Date:   Sat Jan 25 23:19:09 2020 +0300
+
+    docs: отчет за 25.01.20
+
+[33mcommit bc3409d43f050e32cc28edfda669e2b6c09d896b[m
+Author: Andrey <andrey-trush@mail.ru>
+Date:   Sat Jan 25 18:51:50 2020 +0300
+
+    веб-разработчик 12.0:les-13 Основы JS
+
+[33mcommit e3c6fe96d5ca2ffd1cf9938840ec439e7e2a6391[m
+Author: Andrey <andrey-trush@mail.ru>
+Date:   Sat Jan 25 17:58:47 2020 +0300
+
+    веб-разработчик 12.0:Сверстал все кроме двух секций
+
+[33mcommit f43324f57cb361470aeec07a2838d0579afebbc2[m
+Author: Andrey <andrey-trush@mail.ru>
+Date:   Tue Jan 21 22:13:09 2020 +0300
+
+    docs: отчет за 21.01.20
+
+[33mcommit 21d9efec93b37bd7e88efa52b702d8f80ed96d57[m
+Author: Andrey <andrey-trush@mail.ru>
+Date:   Tue Jan 21 21:49:08 2020 +0300
+
+    веб-разработчик 12.0:CardBoard - верстка первой секции (с формой)
+
+[33mcommit 243d74c1d30f208bf1290d37657ec07fa4d3a5ab[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Jan 17 21:21:21 2020 +0300
+
+    docs: отчет за 17.01.20 upd
+
+[33mcommit da02255635cbd647ff8b95887f2044adf5b714f9[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Jan 17 21:14:55 2020 +0300
+
+    веб-разработчик 12.0: CardBoard - начал верстать header
+
+[33mcommit 8413ef3259221e7c060358ec45adfba351b4fa39[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Jan 17 19:22:27 2020 +0300
+
+    Web-разработчик 2019:Uber-Закончил адаптацию под мобильные устройства
+
+[33mcommit 4a16314d276525834cc722870bc9770b61824539[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Jan 17 19:17:21 2020 +0300
+
+    docs: отчет за 17.01.20
+
+[33mcommit 79762953aa028680b0762e299904363e417fe052[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Jan 17 18:52:15 2020 +0300
+
+    Web-разработчик 2019:Uber-Закончил адаптацию под мобильные устройства
+
+[33mcommit e3401512cae34b6e917877c0a9a39de1ed18eb9e[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Jan 13 22:42:10 2020 +0300
+
+    docs: отчет за 13.01.20
+
+[33mcommit 1282a7dce662c3161df4b3a2bb0b4321b5e29415[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Jan 13 22:22:32 2020 +0300
+
+    les9-3: Добавил адаптивности
+
+[33mcommit 4676b6eef916e9c565392b408507fff05615f91b[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Jan 13 20:59:35 2020 +0300
+
+    les9-3: Закончил верстку Pixel Perfect
+
+[33mcommit 32e70ab86ccac458336d877c06d3ab0a18348b61[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Jan 13 19:43:10 2020 +0300
+
+    les9-2: Закончил верстку на Flexbox
+
+[33mcommit df5b367a8656170dd49d06ba8482b3d3ecf62a78[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Jan 13 18:10:22 2020 +0300
+
+    les9-1: Закончил верстку
+
+[33mcommit 39dc33ed06aef9280112b490ff9e5baa2be39f4c[m
+Merge: 16a2ce0 b88b5a3
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Jan 9 23:22:17 2020 +0300
+
+    update
+
+[33mcommit 16a2ce01a645367f16602e4c808633d19f824bed[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Jan 9 23:10:24 2020 +0300
+
+    docs: отчет за 09.01.20
+
+[33mcommit 44ba4c0884b9a1340fcc180e9d8e6fc09770efc3[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Jan 9 23:06:13 2020 +0300
+
+    Web-разработчик 2019: lesson24: Закончил верстку для пк
+
+[33mcommit 187cd4eb724ee52068c72b6b4809fde9db250242[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Jan 9 16:37:48 2020 +0300
+
+    Web-разработчик 2019: lesson24: Сверстано все кроме футера
+
+[33mcommit 28fb130eca6e8c140fc44d2d35574dffc39938a5[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Jan 7 22:16:53 2020 +0300
+
+    docs: отчет за 07.01.20
+
+[33mcommit b88b5a3090b05770ecb68cf4fc92bfba44a6b959[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Jan 7 22:16:53 2020 +0300
+
+    docs: отчет за 73.01.20
+
+[33mcommit 826b79dd2da48c74497cbfa2d1aafdb13ca5c455[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Jan 7 22:07:32 2020 +0300
+
+    Web разработчик 2019. Les24. Доверстал 3 секцию
+
+[33mcommit 9c36853929eab4d111125d0c5ac765095c40ef03[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Jan 6 22:30:59 2020 +0300
+
+    Web разработчик 2019: les24
+
+[33mcommit 1a53c0ba237640cb4ce4dbf8e88f4491f4431575[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Jan 3 22:08:10 2020 +0300
+
+    docs: отчет за 03.01.20
+
+[33mcommit 2db116b4f623ce786a5de32fe1ae0a1af127ac32[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Jan 3 18:56:53 2020 +0300
+
+    веб-разработчик 12.0: Les7-Bootstrap
+
+[33mcommit d71230d864914b9226497ecd09fb453f2b4a8eb2[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Jan 3 18:55:50 2020 +0300
+
+    веб-разработчик 12.0: Bootstrap row
+
+[33mcommit 85f779b947019f78c86643c2cd4af90e11c51383[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sat Dec 28 14:19:48 2019 +0300
+
+    docs: отчет за 28.12.19
+
+[33mcommit 1c7e00396551c877017769f7085b003210201b38[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Dec 27 23:59:51 2019 +0300
+
+    веб-разработчик 12.0: верстка 5 урока
+
+[33mcommit 50c5c500ab96e3ea669be98e7686bee72ce514f7[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Dec 24 21:21:56 2019 +0300
+
+    docs: отчет за 24.12.19
+
+[33mcommit 3c7f37c8b6760c8b32baa892328d474fa326dc30[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Dec 24 21:20:46 2019 +0300
+
+    docs: отчет за 24.12.19
+
+[33mcommit 0a236939efc3edeb47ec839a6b69bf014272463d[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Dec 24 21:17:46 2019 +0300
+
+    Веб-разработчик 12.0:Верстка карточки товара
+
+[33mcommit 1df6922b80666dd041672da2bc116921a0e5526f[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Dec 24 21:15:56 2019 +0300
+
+    docs: отчет за 24.12.19
+
+[33mcommit 73967b7ebfc75057dfc5f7ab80f6dc3e71c9742e[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Dec 24 19:26:51 2019 +0300
+
+    WEB-РАЗРАБОТЧИК 2019: Верстка первого макета
+
+[33mcommit 2c3e92897c06c2f73f2157637496a263b2a6eb64[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Dec 20 18:10:10 2019 +0300
+
+    learn: Верстка глав книги
+
+[33mcommit aef6d6b7acb0c1698b054f00455fa682018b75a5[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Dec 20 18:07:21 2019 +0300
+
+    docs: отчет за 20.12.19
+
+[33mcommit a54973b2e0a2e26281472082b3f36314fe446918[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Dec 16 22:43:45 2019 +0300
+
+    Возобновляю учебу
+
+[33mcommit e9d07eabd24dbc3985ffaaab7058505e77cdb2be[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun May 12 22:14:52 2019 +0300
+
+    docs: отчет за 12.05.19
+
+[33mcommit 3f99916ad28a6ded85468b3abbadb1d4d4a93c5f[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun May 12 22:13:03 2019 +0300
+
+    learn: Html&Css - Задачи itmathrepetitor
+
+[33mcommit 82e6219af0f4b4484a653ac0c85fb3a1abde8001[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon May 6 22:16:03 2019 +0300
+
+    docs: отчет за 06.05.19
+
+[33mcommit ff45543a783f41cb37c9aa331d4aaeb2a01d3d8f[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon May 6 22:10:41 2019 +0300
+
+    docs: отчет за 05.05.19
+
+[33mcommit 656cbb2a1ac729762e090f28e1568969131d7c90[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon May 6 22:09:27 2019 +0300
+
+    learn: Html - Задачи itmathrepetitor
+
+[33mcommit b5830117e8f4a1a478f0c8aecd0b95f6d5470ba5[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun May 5 12:51:28 2019 +0300
+
+    docs: отчет за 04.05.19
+
+[33mcommit 906a47d9e90f163277088547b7dc21c659ee4e93[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Apr 24 22:03:07 2019 +0300
+
+    docs: отчет за 24.04.19
+
+[33mcommit bc582385a77ca534911cbd024a00bc88ab554d64[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Apr 21 23:08:15 2019 +0300
+
+    docs: отчет за 21.04.19
+
+[33mcommit 15dcccd32a1401573c995e83d011d7b53fd134bb[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sat Apr 20 22:35:35 2019 +0300
+
+    mend
+
+[33mcommit ff9b15e2880ca28d60514122a2d6621ff7d2c936[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sat Apr 20 22:32:36 2019 +0300
+
+    docs: отчет за 20.04.19
+
+[33mcommit 088e8fb85891554fa8a9a2102ed847c891f9dbe2[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Mar 28 20:46:18 2019 +0300
+
+    docs: отчет за 28.03.19
+
+[33mcommit 6c091a5aa15319c801a523c9e5945bd6812f624e[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Mar 28 20:43:04 2019 +0300
+
+    docs: Html&Css - Twitter Страница входа
+
+[33mcommit a9c349b5bf33bbdd38b7239a2d09efd10324dd23[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Mar 28 20:37:48 2019 +0300
+
+    learn: Html&Css - Twitter Страница входа
+
+[33mcommit f61acb96a641426548ba8b8cd457ff4a30a6f460[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Mar 27 22:17:01 2019 +0300
+
+    docs: отчет за 27.03.19
+
+[33mcommit 9455b2417bde07fc770d1dbb05c7d358eb339e96[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 26 22:59:19 2019 +0300
+
+    docs: отчет за 26.03.19
+
+[33mcommit 27ffb5ed334b9c1b7d7a878664e41186b6616572[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Mar 25 22:31:59 2019 +0300
+
+    docs: отчет за 25.03.19
+
+[33mcommit b02b51871ad8b732923cc2d214df01a1bf0a1533[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Mar 24 23:09:05 2019 +0300
+
+    docs: отчет за 24.03.19
+
+[33mcommit 96c1649f664096f5dd50452ef734d65d7f4b997f[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Mar 22 19:59:58 2019 +0300
+
+    docs: отчет за 22.03.19
+
+[33mcommit 55746c837a01b870a3593e4d545d4a61d238e22e[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Mar 21 22:16:04 2019 +0300
+
+    docs: отчет за 21.03.19
+
+[33mcommit 97b07abc7f18670d6fc676a5c639f4a4471fe131[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Mar 21 22:15:33 2019 +0300
+
+    learn: Html&Css - Prototype Sport Cards
+
+[33mcommit 50aea7b5635b185ff26cb9201b6ac6467963bd78[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Mar 20 18:16:45 2019 +0300
+
+    docs: отчет за 20.03.19
+
+[33mcommit 77f506b4d3fdb966cf0608b1f700fb731f2626bb[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Mar 20 18:14:45 2019 +0300
+
+    docs: FreeCodeCamp Project5 - Personal Portfolio Webpage
+
+[33mcommit 150a24458fd825431fa2604b84780bce051c4ee0[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Mar 20 18:09:14 2019 +0300
+
+    mend
+
+[33mcommit fc7746fed4e258e044f6d1b1dc7c507f27c55b74[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Mar 20 18:03:28 2019 +0300
+
+    learn: FreeCodeCamp Project5 - Personal Portfolio Webpage
+
+[33mcommit a4e8929dc72253e77ae200bcec3b369339e69158[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 19 22:52:17 2019 +0300
+
+    docs: отчет за 19.03.19
+
+[33mcommit db2aa5a03ef6b4be87cafd5b1a22f6facbdeb2f2[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 19 22:50:21 2019 +0300
+
+    learn: FreeCodeCamp Project5 - Personal Portfolio Webpage
+
+[33mcommit 3b0657a4ec461fea16d9056e430227e0af73cb46[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Mar 18 21:47:16 2019 +0300
+
+    docs: отчет за 18.03.19
+
+[33mcommit 3b492429237f62f044694c84351d1d2e61c086a7[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Mar 18 21:01:30 2019 +0300
+
+    docs: FreeCodeCamp Project4 - Technical Doc. Page
+
+[33mcommit 9a99333a313c5c7ebed3ab1e0e8d5342c8353ad5[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Mar 18 20:54:00 2019 +0300
+
+    learn: FreeCodeCamp Project4 - Technical Doc. Page
+
+[33mcommit cf882938c7a40ebd6801325ba7358ac7afee0b69[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Mar 17 22:47:37 2019 +0300
+
+    docs: отчет за 17.03.19
+
+[33mcommit d34dd75cf09fbfb2ac5b502cbbe7947e8a94c368[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Mar 17 22:32:07 2019 +0300
+
+    learn: FreeCodeCamp Project4 - Technical Doc. Page
+
+[33mcommit ccf7dbe2666df752e09d1c4bc434cc5759445291[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Mar 15 22:22:16 2019 +0300
+
+    docs: отчет за 15.03.19
+
+[33mcommit 5cf05e625aea85a45c789cf92488a303248d244b[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Mar 15 22:16:00 2019 +0300
+
+    docs: FreeCodeCamp Project3 - Landing Page
+
+[33mcommit 000296895bd6fb606d58407b5985a40a37f4670d[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Mar 15 22:15:02 2019 +0300
+
+    learn: FreeCodeCamp Project3 - Landing Page
+
+[33mcommit 1b1c814bbaad91612889bc4987222a7f75a25e5f[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Mar 15 00:12:55 2019 +0300
+
+    docs: отчет за 14.03.19
+
+[33mcommit faeec553346e456edab48e2e240ac538bbfaacd6[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Mar 15 00:10:31 2019 +0300
+
+    learn: FreeCodeCamp Project3 - Landing Page #header
+
+[33mcommit cfcdeb36340f3cbe689e34e5128a2803412cd46a[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Mar 13 23:47:05 2019 +0300
+
+    docs: отчет за 13.03.19
+
+[33mcommit 7973462ee5b61833bc171599e83919b65c19687e[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 12 23:48:47 2019 +0300
+
+    mend
+
+[33mcommit 23d3f7d44c94c756e52b80af74f47520b98410e2[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 12 23:47:05 2019 +0300
+
+    docs: отчет за 12.03.19
+
+[33mcommit 978589424e630dcdc4f7e7ea5fe895104f97cda7[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 12 23:44:09 2019 +0300
+
+    docs: FreeCodeCamp Project2-Survey Form
+
+[33mcommit f26aaeb5b2462aec85f447e074e1b04fbaa61c1b[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 12 23:28:19 2019 +0300
+
+    learn: FreeCodeCamp Project2-Survey Form
+
+[33mcommit d9a0d8cd96bb550e45d6daff36c6bcb80ed1c7bd[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 5 21:28:02 2019 +0300
+
+    docs: отчет за 05.03.19
+
+[33mcommit 2f2c0e4bf32d11f1d3f8294997e0a3ab23e44273[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 5 13:17:16 2019 +0300
+
+    docs: FreeCodeCamp Project1- Tribute Page
+
+[33mcommit c7cec80402ad1a7b2936d13a69c336022ee5920a[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Mar 5 12:53:37 2019 +0300
+
+    learn: FreeCodeCamp Project1- Tribute Page
+
+[33mcommit e3a046eb906bd1acfb157c79a1909424025304cb[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Mar 4 22:34:29 2019 +0300
+
+    docs: отчет за 04.03.19
+
+[33mcommit 072dd67f37413a962c0273b300378f05ec649f40[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Mar 4 22:30:56 2019 +0300
+
+    learn: FreeCodeCamp проект 1
+
+[33mcommit 0c15ec0d30650a52fc2ba46088cda777633f76f9[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Mar 4 22:28:55 2019 +0300
+
+    feat: Gulp смена каталога
+
+[33mcommit ae9c8d018d7d66f8847cb8f3065d7b55bc03131b[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Mar 3 23:14:21 2019 +0300
+
+    learn:{CS50} Расчет сдачи 25,10,5,1
+
+[33mcommit 253ba50d73e6677596a205ad20fcde76b56d7c56[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Mar 3 23:13:12 2019 +0300
+
+    docs: отчет за 03.03.19
+
+[33mcommit c2edb799b03643fcfe3fa86c2353fe0b5dd0447a[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Fri Mar 1 23:49:28 2019 +0300
+
+    docs: отчет за 01.03.19
+
+[33mcommit de7690d22453d15da03b64313f7dc94d5e764564[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Feb 28 23:34:59 2019 +0300
+
+    docs: отчет за 28.02.19
+
+[33mcommit 93c31f75a15ddcf3bb31a7a0fba90053771b00a7[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Thu Feb 28 00:02:36 2019 +0300
+
+    learn:{CS50} Пирамида марио & Расход воды
+
+[33mcommit a8095922edf986b45a0649e4e6c7ba9155c2ad1c[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Feb 27 23:47:43 2019 +0300
+
+    docs: отчет за 27.02.19
+
+[33mcommit 3963819e3d79aa78341051ac5b21430927e776bf[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Feb 27 23:42:39 2019 +0300
+
+    learn:{CS50} Пирамида марио & Расход воды
+
+[33mcommit d08bf6ceb7df8e433f82af7d132de8b51f056cf3[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Feb 26 20:53:20 2019 +0300
+
+    docs: отчет за 26.02.19
+
+[33mcommit 9068d5f1d787d0c3fa9223ecd8a138b545175a20[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Feb 25 23:23:56 2019 +0300
+
+    docs: отчет за 25.02.19
+
+[33mcommit 5752acdad7425c7155372c848182ba1806a0ab4a[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Feb 25 16:13:39 2019 +0300
+
+    docs: отчет за 24.02.19
+
+[33mcommit 9f57124583bf3b23c1b86fd51c9e2cb052304fd7[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sat Feb 23 14:34:16 2019 +0300
+
+    docs: отчет за 23.02.19
+
+[33mcommit 3e685dbc1e62c4ae1e2f768a57730987644cb138[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Feb 20 19:57:42 2019 +0300
+
+    docs: отчет за 20.02.19
+
+[33mcommit 25fa496369543ee528fc31ec86ad1c33b6614479[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Tue Feb 19 21:34:49 2019 +0300
+
+    docs: отчет за 19.02.19
+
+[33mcommit 6d37b6591a8973bc0d69df073e32bcf409cb6f8b[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Feb 18 16:10:18 2019 +0300
+
+    docs: отчет за 18.02.19
+
+[33mcommit db03589c51d8e547aabf054539d570026aacb3db[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Feb 17 22:47:56 2019 +0300
+
+    feat: игнорирование psd
+
+[33mcommit cc3ce6a3431a948500ac4a7280262d695758cbf0[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Feb 17 22:46:46 2019 +0300
+
+    docs: отчет за 17.02.19
+
+[33mcommit 233cfe569dc1bfbbb0867b40de275756c2221185[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Feb 17 12:58:43 2019 +0300
+
+    HTML: Table and form
+
+[33mcommit c7c3d51dd46669a1b894f768a848bd9e9c174472[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Feb 17 12:58:22 2019 +0300
+
+    JS: Game guess the number & deposit calculation
+
+[33mcommit 092f0417bda213cd4fe5feb26149d62f3250f708[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Feb 17 12:51:24 2019 +0300
+
+    HTML: Table and form
+
+[33mcommit 1a121c5de8f0516cefa1ae3201f9d3ebce1cf5a6[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Feb 17 12:50:13 2019 +0300
+
+    JS: Game guess the number & deposit calculation
+
+[33mcommit cc356f663d6ec5262156a8c937081810518238b0[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Feb 17 12:45:24 2019 +0300
+
+    docs: отчет за 17.02.19
+
+[33mcommit e68761a22cca64637fcc86c591cc9f99c3503ffe[m
+Merge: d6bce6b 915d6ad
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Feb 13 22:36:42 2019 +0300
+
+    docs: отчет#2 за 13.02.19
+
+[33mcommit d6bce6b49355c2427128423148506ea9e0789604[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Feb 13 22:34:45 2019 +0300
+
+    docs: отчет#2 за 13.02.19
+
+[33mcommit b5e3de7c6f80bb7e70717f8e679d3b5d8c6c0b5b[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Feb 13 21:21:30 2019 +0300
+
+    docs: отчет за 13.02.19
+
+[33mcommit e40ed5487794f5cae2e87366b0af50e6440fe53c[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Feb 13 21:15:22 2019 +0300
+
+    docs: отчет за 13.02.19
+
+[33mcommit 915d6ad219960617220510c29a1e3a84c5cdab5e[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Feb 13 21:15:22 2019 +0300
+
+    docs: отчет за 13.02.19
+
+[33mcommit ff2de8a75723ae002140596d8c3a5bcf2c4cff47[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Wed Feb 13 21:12:47 2019 +0300
+
+    learn:{HTML} разметил хедер
+
+[33mcommit be1dfcdf3f09e96f94f0c94d4a49147e2d4c1efe[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Mon Feb 11 21:31:59 2019 +0300
+
+    docs: отчет за 11.02.19
+
+[33mcommit 7a5238fc0dddeffcc55bac833047d0d355cc6fbd[m
+Author: Andrey T <andrey-trush@mail.ru>
+Date:   Sun Feb 10 21:11:26 2019 +0300
+
+    docs: отчет за 10.02.19
+
+[33mcommit b5f71ea2e6d8873d2daf40a3ef4f0f4a60d2712c[m
+Author: Andrey T <tanderbull@gmail.com>
+Date:   Sun Feb 10 20:55:27 2019 +0300
+
+    docs: отчет за 10.02.19
+
+[33mcommit fc42f1cd369fd6175c172a5b33fc0de12b884298[m
+Author: Andrey T <tanderbull@gmail.com>
+Date:   Sun Feb 10 19:59:45 2019 +0300
+
+    feat: подключил Gulp
+
+[33mcommit 76cd0edfebc90a39dc7149ec7bf0715d026b8416[m
+Author: Andrey T <tanderbull@gmail.com>
+Date:   Sat Feb 9 21:06:18 2019 +0300
+
+    docs: отчет за 09.02.19
+
+[33mcommit 9eea9abd6a9210b4c89c632187d8675786f2c2dc[m
+Author: Andrey T <tanderbull@gmail.com>
+Date:   Sat Feb 9 21:05:26 2019 +0300
+
+    learn:{HTML} начал работать над сайтом
+
+[33mcommit 2999643aeaad78c44663b9d65d9e21343936f7b4[m
+Author: Andrey T <tanderbull@gmail.com>
+Date:   Fri Feb 8 20:48:15 2019 +0300
+
+    docs: отчет за 08.02.19
+
+[33mcommit 0d0f2bddd29e49aaab2b82993d1c31d30babb9a6[m
+Author: Andrey T <tanderbull@gmail.com>
+Date:   Fri Feb 8 20:46:50 2019 +0300
+
+    learn:{HTML} создал простую таблицу и форму
+
+[33mcommit 252182a16f38b7297670780d8c558dbe1bb289a8[m
+Author: Andrey T <tanderbull@gmail.com>
+Date:   Fri Feb 8 20:45:11 2019 +0300
+
+    learn:{HTML} создал простую таблицу и форму
+
+[33mcommit 3eb87e3332ca0989554d8f660c7170536b048cb0[m
+Author: Andrey T <tanderbull@gmail.com>
+Date:   Fri Feb 8 19:21:13 2019 +0300
+
+    docs: Отчет за 08.02.19
+
+[33mcommit 639d26f53571302c54f37ff5c84f33ce13cb355a[m
+Author: Andrey T <tanderbull@gmail.com>
+Date:   Thu Feb 7 20:45:45 2019 +0300
+
+    JS: Game guess the number & deposit calculation
+
+[33mcommit 3b78e14ff7a376010cb726bb8328a707ec3ec3be[m
+Author: Andrey Trush <tanderbull@gmail.com>
+Date:   Tue Feb 5 19:43:44 2019 +0300
+
+    Readme
