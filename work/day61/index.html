@@ -55,6 +55,27 @@
         </div>
       </div>
 
+      <!-- Gamburger Menu -->
+      <a href="#menu" class="menu-link hidden-lg">
+        <span class="menu-link__line"></span>
+      </a>
+
+      <div class="menu hidden-lg">
+        <ul>
+          <li><a href="#map">О компании</a></li>
+          <li><a href="#box">преимущества</a></li>
+          <li><a href="#manufacturing">производство</a></li>
+          <li><a href="#promo">склад</a></li>
+          <li><a href="#production">Продукция</a></li>
+          <li><a href="#client">наши клиенты</a></li>
+          <li><a href="#feedback">Сертификаты</a></li>
+          <li><a href="#feedback">Отзывы</a></li>
+          <li><a href="#map">контакты</a></li>
+        </ul>
+      </div>
+
+
+
       <div class="container header-line">
         <div class="row align-items-center">
           <div class="col-3 col-md-4">
@@ -740,6 +761,26 @@
           arrows: false,
           autoplay: true,
           autoplaySpeed: 4000
+        });
+      });
+    </script>
+
+    <!-- Gamburger Menu -->
+    <script>
+      $(document).ready(function() {
+        let link = $(".menu-link");
+        let link_active = $(".menu-link_active");
+        let menu = $(".menu");
+        let nav_link = $(".menu a");
+
+        link.click(function() {
+          link.toggleClass("menu-link_active");
+          menu.toggleClass("menu_active");
+        });
+
+        nav_link.click(function() {
+          link.toggleClass("menu-link_active");
+          menu.toggleClass("menu_active");
         });
       });
     </script>

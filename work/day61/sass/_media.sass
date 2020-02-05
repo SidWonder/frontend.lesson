@@ -1,4 +1,9 @@
+.hidden-lg
+  display: none 
+
 @media (max-width: 991px)
+  .hidden-lg
+    display: block
   .hidden-mobile
     display: none 
   .header
@@ -141,7 +146,81 @@
         margin-right: 15px
   .slider-arrow_feedback
     margin: -12px
+  /*Menu Gamburger*/
+  .menu 
+    display: flex
+    background-color: #FF4500	
+    position: fixed
+    justify-content: center
+    align-items: center
+    width: 100vw
+    height: 100vh
+    z-index: 99
+    left: -100vw
+    transition: all 0.5s
+    opacity: 0.93
+    &_active
+      left: 0
+    ul
+      list-style: none
+      padding: 0
+      text-align: center
+      li
+        width: 100vw
+      a
+        display: block
+        color: #fff
+        font-weight: 100
+        letter-spacing: 4px
+        line-height: 4
+        text-decoration: none
+        transition: all 0.2s
+        width: 100%
+        text-transform: uppercase
+        &:hover
+          display: block
+          background-color: rgba(255, 255, 255, 0.4)
+          text-decoration: none
 
+    &-link 
+      z-index: 100
+      display: block 
+      width: 50px 
+      height: 50px 
+      background-color: #fff 
+      border-radius: 50% 
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4) 
+      position: fixed 
+      top: 20px 
+      left: 20px 
+      &__line, &__line::before, &__line::after 
+        display: block 
+        height: 2px 
+        width: 18px 
+        background: #333 
+        position: absolute 
+        left: 50% 
+        margin-left: -9px 
+        top: 50% 
+        margin-top: -1px 
+      &__line 
+        &::before 
+          transition: all 0.2s
+          content: "" 
+          margin-top: -6px 
+        &::after 
+          transition: all 0.2s
+          content: "" 
+          margin-top: 4px 
+      &_active
+        span
+          background-color: transparent
+          &::before
+            transform: rotate(135deg)
+            margin-top: 0
+          &::after
+            transform: rotate(-135deg)
+            margin-top: 0
 
 @media (max-width: 767px)
   .hidden-mobile
@@ -293,6 +372,9 @@
 @media (max-width: 575px)
   .hidden-mobile
     display: none
+  .menu 
+    &-link
+      top: 10px
   .header
     &-wrapper
       display: none
@@ -305,6 +387,7 @@
       background-color: #ff9d00;
       padding: 8px 8px 9px 6px
       border-radius: 5px
+      margin-left: 65px
     &-contacts
       &__button
         display: inline-block

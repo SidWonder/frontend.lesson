@@ -1,0 +1,88 @@
+body
+  margin: 0
+.menu 
+  display: flex
+  background-color: purple
+  position: fixed
+  justify-content: center
+  align-items: center
+  width: 100vw
+  height: 100vh
+  z-index: 1
+  left: -100vw
+  transition: all 0.5s
+  opacity: 0.9
+  &_active
+    left: 0
+  ul
+    list-style: none
+    padding: 0
+    text-align: center
+    li
+      width: 100vw
+    a
+      display: block
+      color: #fff
+      font-weight: 100
+      letter-spacing: 4px
+      line-height: 4
+      text-decoration: none
+      transition: all 0.2s
+      width: 100%
+      &:hover
+        display: block
+        background-color: rgba(255, 255, 255, 0.4)
+        text-decoration: none
+
+  &-link 
+    z-index: 5
+    display: block 
+    width: 50px 
+    height: 50px 
+    background-color: #fff 
+    border-radius: 50% 
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4) 
+    position: fixed 
+    top: 20px 
+    left: 20px 
+    &__line, &__line::before, &__line::after 
+      display: block 
+      height: 2px 
+      width: 18px 
+      background: #333 
+      position: absolute 
+      left: 50% 
+      margin-left: -9px 
+      top: 50% 
+      margin-top: -1px 
+    &__line 
+      &::before 
+        transition: all 0.2s
+        content: "" 
+        margin-top: -6px 
+      &::after 
+        transition: all 0.2s
+        content: "" 
+        margin-top: 4px 
+    &_active
+      span
+        background-color: transparent
+        &::before
+          transform: rotate(135deg)
+          margin-top: 0
+        &::after
+          transform: rotate(-135deg)
+          margin-top: 0
+                
+.main
+  color: #fff
+  width: 70vw
+  margin: 0 auto
+  section
+    margin: 10px
+    margin-top: 0 
+    padding: 10px
+    background-color: #333
+    &:nth-child(even)
+      background-color: #444
+    
