@@ -1,0 +1,27 @@
+.client 
+  min-height: 600px
+  padding-bottom: 61px
+  &__img
+    @extend .production__img
+    margin-bottom: 33px
+  &-box
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    &__item
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 212px
+      height: 130px
+      border: 1px solid rgba(0, 0, 0, 0.1)
+      background-color: #ffffff
+      margin-right: 30px
+      margin-bottom: 33px
+      &:nth-child(4n)   
+        margin-right: 0
+    &__img
+      filter: grayscale(100%)
+      filter: gray
+    &__img:hover
+      filter: none
