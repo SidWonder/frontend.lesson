@@ -42,7 +42,6 @@
 
     <!-- slick-slider -->
     <script
-      type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script>
@@ -140,7 +139,7 @@
     </script>
 
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
+    <script>
       (function(m, e, t, r, i, k, a) {
         m[i] =
           m[i] ||

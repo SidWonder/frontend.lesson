@@ -502,10 +502,7 @@
             <div class="map-block__title">Е-mail</div>
             <div class="map-block__desc">urals.karton@gmail.com</div>
           </div>
-          <img
-            src="img/decor/map_mobile.jpg"
-            class="map-block__img d-sm-none"
-          />
+          <img src="img/decor/map_mobile.jpg" class="map-block__img d-sm-none" alt='Карта'/>
         </div>
       </div>
     </section>
@@ -528,9 +525,7 @@
             <div class="popup-form-header">
               Получите индивидуальное предложение
               <span> на производство и поставку изделий</span>
-              <label for="phone" class="popup-form__label"
-                >Введите ваш номер телефона:</label
-              >
+              <label for="phone" class="popup-form__label">Введите ваш номер телефона:</label>
               <input
                 type="tel"
                 name="phone"
