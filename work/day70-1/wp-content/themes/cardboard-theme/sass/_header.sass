@@ -1,0 +1,41 @@
+.header
+  max-height: 144x //135px
+  margin-bottom: 15px
+  &-line
+    padding-top: 55px
+  &-logo
+    width: 191px
+    height: 61px
+    background:#fff url('../img/logo.png') center center no-repeat
+  &-contacts
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    &__phone
+      font-size: 22px
+      margin-right: 13px
+      &s
+        display: flex
+
+      &:nth-child(1)
+        &::after
+          display: table
+          content: ''
+          height: 32px
+          opacity: 0.2
+          border: 1px solid #cfcfd0
+          float: right
+          margin-left: 13px
+      &:nth-child(2)
+        margin-right: 27px
+          
+        
+    &__button
+      width: 179px
+      height: 45px
+      font-weight: 400
+      img
+        width: 20px
+        height: 20px
+        margin-right: 7px
+        vertical-align: middle

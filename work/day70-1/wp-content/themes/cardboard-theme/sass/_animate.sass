@@ -1,0 +1,44 @@
+@keyframes boxBottom
+  0%
+    opacity: 0
+    bottom: -100%
+
+  100%
+    opacity: 1
+    bottom: 0%
+  
+@keyframes ProductionBox
+  0%
+    opacity: 0
+    bottom: -100%
+    transform: rotate(-90deg) scale(0.3)
+
+
+  50%
+    opacity: 1
+    bottom: 0%
+
+  100%
+    opacity: 1
+    transform: rotate(0deg) scale(1)
+
+
+  
+.box
+  &-1
+    animation-delay: 0s
+  &-2
+    animation-delay: 0.2s
+  &-3
+    animation-delay: 0.4s
+  &-4
+    animation-delay: 0.6s
+  &-5
+    animation-delay: 0.8s
+  &-6
+    animation-delay: 1s
+
+.production-box__img
+  // opacity: 0
+  animation: ProductionBox 3s ease-in-out 0.4s 1
+  animation-fill-mode: both
