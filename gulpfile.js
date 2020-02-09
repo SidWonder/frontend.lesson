@@ -1,23 +1,33 @@
+/**
+ * Gulpfile
+ * Author:Andrey
+ * 2020/02/09 
+ * 
+ * Подкинуть gulpfile.js, package.json, .gitignore в папку с проектом
+ * Выполнить команду: npm i
+ * 
+ */
+
 'use strict';
-var gulp       	 = require('gulp'), 					// Подключаем Gulp
-    browserSync  = require('browser-sync'), 			// Подключаем Browser Sync 
-    sass         = require('gulp-sass'), 				// Подключаем Sass пакет,
-    autoprefixer = require('gulp-autoprefixer'),		// Автоматическое добавление префиксов 
-    plumber      = require("gulp-plumber"), 			// Предохранитель для остановки галпа 	
-    imagemin     = require('gulp-imagemin'), 			// Сжатие изображений
-    pngquant     = require('imagemin-pngquant'), 		// Сжатие png
-    cssnano      = require('gulp-cssnano'), 			// Подключаем пакет для минификации CSS	
-    cache        = require('gulp-cache'), 				// Отключение кеширования в режиме разработки
+var gulp       	 = require('gulp'), 					      // Подключаем Gulp                                npm i --save-dev gulp
+    browserSync  = require('browser-sync'), 			  // Подключаем Browser Sync                        npm i --save-dev browser-sync
+    sass         = require('gulp-sass'), 				    // Подключаем Sass пакет,                         npm i --save-dev gulp-sass
+    autoprefixer = require('gulp-autoprefixer'),		// Автоматическое добавление префиксов            npm i --save-dev gulp-autoprefixer
+    plumber      = require("gulp-plumber"), 			  // Предохранитель для остановки галпа         	  npm i --save-dev gulp-plumber
+    imagemin     = require('gulp-imagemin'), 			  // Сжатие изображений                             npm i --save-dev gulp-imagemin
+    pngquant     = require('imagemin-pngquant'), 		// Сжатие png                                     npm i --save-dev imagemin-pngquant
+    cssnano      = require('gulp-cssnano'), 			  // Подключаем пакет для минификации CSS	          npm i --save-dev gulp-cssnano
+    cache        = require('gulp-cache'), 				  // Отключение кеширования в режиме разработки     npm i --save-dev gulp-cache
 
-    rename       = require('gulp-rename'), 				// Переименование файлов
-    del          = require('del'), 						// Удаление файлов и папок
-    concat       = require('gulp-concat'), 				// Конкатенация файлов
+    rename       = require('gulp-rename'), 				  // Переименование файлов                          npm i --save-dev gulp-rename
+    del          = require('del'), 						      // Удаление файлов и папок                        npm i --save-dev del
+    concat       = require('gulp-concat'), 				  // Конкатенация файлов                            npm i --save-dev gulp-concat
 
-    uglify       = require('gulp-uglify'), 				// Сжатие JS
-    jshint       = require("gulp-jshint"), 				// Отслеживание ошибкок в js
+    uglify       = require('gulp-uglify'), 				  // Сжатие JS                                      npm i --save-dev gulp-uglify
+    jshint       = require("gulp-jshint"), 				  // Отслеживание ошибкок в js                      npm i --save-dev gulp-jshint
 
-	_src_		= 'work/day71/src/',
-	_dist_		= 'work/day71/dist/';
+	  _src_		     = 'work/day71/src/',
+	  _dist_		   = 'work/day71/dist/';
 
 	
 // SASS
