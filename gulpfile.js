@@ -133,7 +133,7 @@ gulp.task('build', ['clean', 'img', 'sass', 'styles', 'scripts'], function() {
 });
 
 
-//WATCH
+//WATCH 
 gulp.task('watch',['browser-sync'], function() {
     gulp.watch(_src_+'sass/**/*.sass', ['sass', 'styles']); // Наблюдение за sass файлами в папке sass
     gulp.watch(_src_+'**/*.css', browserSync.reload); // Наблюдение за CSS файлами    
