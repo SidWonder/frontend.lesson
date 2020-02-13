@@ -13,7 +13,8 @@ var gulp       	 = require('gulp'), 					      // Подключаем Gulp     
     browserSync  = require('browser-sync'), 			  // Подключаем Browser Sync                        npm i --save-dev browser-sync
     sass         = require('gulp-sass'), 				    // Подключаем Sass пакет,                         npm i --save-dev gulp-sass
     autoprefixer = require('gulp-autoprefixer'),		// Автоматическое добавление префиксов            npm i --save-dev gulp-autoprefixer
-    plumber      = require("gulp-plumber"), 			  // Предохранитель для остановки галпа         	  npm i --save-dev gulp-plumber
+    plumber      = require("gulp-plumber"), 			  // Предохранитель для остановки галпа         	  npm i --save-dev gulp-plumber    
+    notify       = require('gulp-notify'),
     imagemin     = require('gulp-imagemin'), 			  // Сжатие изображений                             npm i --save-dev gulp-imagemin
     pngquant     = require('imagemin-pngquant'), 		// Сжатие png                                     npm i --save-dev imagemin-pngquant
     cssnano      = require('gulp-cssnano'), 			  // Подключаем пакет для минификации CSS	          npm i --save-dev gulp-cssnano
@@ -26,14 +27,21 @@ var gulp       	 = require('gulp'), 					      // Подключаем Gulp     
     uglify       = require('gulp-uglify'), 				  // Сжатие JS                                      npm i --save-dev gulp-uglify
     jshint       = require("gulp-jshint"), 				  // Отслеживание ошибкок в js                      npm i --save-dev gulp-jshint
 
-	  _src_		     = 'work/day71/src/',
-	  _dist_		   = 'work/day71/dist/',
-    _css_        = 'css';                           //Папка с стилями
-	
+    _src_        = "work/day71/src/",
+    _dist_       = "work/day71/dist/",
+    _css_        = "css"; //Папка с стилями
+
+//Выводим сообщение о ошибках
+var plumberErrorHandler = { errorHandler: notify.onError({
+    title: 'Gulp',
+    message: 'Error: <%= error.message %>'
+  })
+};
+
 // SASS
 gulp.task('sass', function(){ // Создаем таск Sass
-    return gulp.src(_src_+'sass/*.sass') // Берем источник    
-        .pipe(plumber())
+    gulp.src(_src_+'sass/*.sass') // Берем источник    
+        .pipe(plumber(plumberErrorHandler))
         .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
         .pipe(gulp.dest(_src_+'css')) // Выгружаем результата в папку app/css
@@ -93,7 +101,7 @@ gulp.task('styles', ['sass'], function() {
     return gulp.src([_src_+_css_+'/*.css','!'+_src_+_css_+'/*.min.css','!'+_src_+_css_+'/fonts.css']) // Выбираем файл для минификации
         .pipe(cssnano()) // Сжимаем
         .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
-        .pipe(gulp.dest(_src_+_css_)); // Выгружаем в папку app/css
+        .pipe(gulp.dest(_src_+_css_)); // Выгружаем в папку app/css   
 });
 
 gulp.task('build', ['clean', 'img', 'sass', 'styles', 'scripts'], function() {
@@ -127,10 +135,11 @@ gulp.task('build', ['clean', 'img', 'sass', 'styles', 'scripts'], function() {
 
 //WATCH
 gulp.task('watch',['browser-sync'], function() {
+    gulp.watch(_src_+'sass/**/*.sass', ['sass', 'styles']); // Наблюдение за sass файлами в папке sass
     gulp.watch(_src_+'**/*.css', browserSync.reload); // Наблюдение за CSS файлами    
     gulp.watch(_src_+'**/*.html', browserSync.reload); // Наблюдение за HTML файлами      
     gulp.watch(_src_+'js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js    
-    gulp.watch(_src_+'sass/**/*.sass', ['sass', 'styles']); // Наблюдение за sass файлами в папке sass
+
 });
 
 
