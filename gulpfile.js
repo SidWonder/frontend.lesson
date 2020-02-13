@@ -27,12 +27,13 @@ var gulp       	 = require('gulp'), 					      // Подключаем Gulp     
     jshint       = require("gulp-jshint"), 				  // Отслеживание ошибкок в js                      npm i --save-dev gulp-jshint
 
 	  _src_		     = 'work/day71/src/',
-	  _dist_		   = 'work/day71/dist/';
-
+	  _dist_		   = 'work/day71/dist/',
+    _css_        = 'css';                           //Папка с стилями
 	
 // SASS
 gulp.task('sass', function(){ // Создаем таск Sass
-    return gulp.src(_src_+'sass/*.sass') // Берем источник
+    return gulp.src(_src_+'sass/*.sass') // Берем источник    
+        .pipe(plumber())
         .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
         .pipe(gulp.dest(_src_+'css')) // Выгружаем результата в папку app/css
@@ -68,33 +69,31 @@ gulp.task('img', function() {
 
 // Удаляем dist
 gulp.task('clean', function() {
-    return del.sync('dist'); // Удаляем папку dist перед сборкой
+    return del.sync(_dist_); // Удаляем папку dist перед сборкой
 });
 
-// Сжимаем JS и выгружаем в продакшен
+// Сжимаем JS
 gulp.task('scripts', ['jstest'], function() {
-    return gulp.src([ // Ищем все JS
-		_src_ + 'js/*.js' 
-        ])
-        .pipe(concat('scripts.js')) // Собираем их в кучу в новом файле libs.min.js
+    return gulp.src([_src_ + 'js/*.js', '!'+_src_+'js/*.min.js'])   // Ищем все JS
+        .pipe(concat('scripts.min.js')) // Собираем их в кучу в новом файле libs.min.js
         .pipe(uglify()) // Сжимаем JS файл
-        .pipe(gulp.dest(_dist_ + 'js')); // Выгружаем в папку app/js
+        .pipe(gulp.dest(_src_ + 'js')); // Выгружаем в папку app/js
 });
 
 // проверка js на ошибки и вывод их в консоль
 gulp.task('jstest', function() {
-    return gulp.src(_src_+'js/**/*.js') //выберем файлы по нужному пути
+    return gulp.src([_src_+'js/**/*.js', '!'+_src_+'js/*.min.js']) //выберем файлы по нужному пути
         .pipe(jshint()) //прогоним через jshint
         .pipe(jshint.reporter('jshint-stylish')); //стилизуем вывод ошибок в консоль
 });
 
 
-// Сжимаем CSS и выгружаем в продакшен
+// Сжимаем CSS
 gulp.task('styles', ['sass'], function() {
-    return gulp.src(_src_+'**/*.css') // Выбираем файл для минификации
+    return gulp.src([_src_+_css_+'/*.css','!'+_src_+_css_+'/*.min.css','!'+_src_+_css_+'/fonts.css']) // Выбираем файл для минификации
         .pipe(cssnano()) // Сжимаем
-        //.pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
-        .pipe(gulp.dest(_dist_)); // Выгружаем в папку app/css
+        .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
+        .pipe(gulp.dest(_src_+_css_)); // Выгружаем в папку app/css
 });
 
 gulp.task('build', ['clean', 'img', 'sass', 'styles', 'scripts'], function() {
@@ -105,18 +104,20 @@ gulp.task('build', ['clean', 'img', 'sass', 'styles', 'scripts'], function() {
         ])
     .pipe(gulp.dest(_dist_ + 'css')) */
 	
-
+    var buildFonts = gulp.src(_src_ + 'libs/**/*') // Переносим библиотеки в продакшен
+    .pipe(gulp.dest(_dist_ + 'libs'))
+    
     var buildFonts = gulp.src(_src_ + 'fonts/**/*') // Переносим шрифты в продакшен
     .pipe(gulp.dest(_dist_ + 'fonts'))
 
-//     var buildJs = gulp.src(_src_ + 'js/**/*') // Переносим скрипты в продакшен
-//    .pipe(gulp.dest(_dist_ + 'js')) 
+     var buildJs = gulp.src(_src_ + 'js/scripts.min.js') // Переносим скрипты в продакшен
+    .pipe(gulp.dest(_dist_ + 'js')) 
 
     var buildHtml = gulp.src(_src_ + '**/*.html') // Переносим HTML в продакшен
     .pipe(gulp.dest(_dist_))
 
-//    var buildCss = gulp.src(_src_ + '**/*.css') // Переносим CSS в продакшен
-//    .pipe(gulp.dest(_dist_))
+    var buildCss = gulp.src([_src_+_css_+'/*.min.css', _src_+_css_+'/fonts.css']) // Переносим CSS в продакшен
+    .pipe(gulp.dest(_dist_+_css_))
 	
     var buildHtaccess = gulp.src(_src_ + '.htaccess') // Переносим htaccess в продакшен
     .pipe(gulp.dest(_dist_));
@@ -129,7 +130,7 @@ gulp.task('watch',['browser-sync'], function() {
     gulp.watch(_src_+'**/*.css', browserSync.reload); // Наблюдение за CSS файлами    
     gulp.watch(_src_+'**/*.html', browserSync.reload); // Наблюдение за HTML файлами      
     gulp.watch(_src_+'js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js    
-    gulp.watch(_src_+'sass/**/*.sass', ['sass']); // Наблюдение за sass файлами в папке sass
+    gulp.watch(_src_+'sass/**/*.sass', ['sass', 'styles']); // Наблюдение за sass файлами в папке sass
 });
 
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #fff;
   font-family: 'Museo Sans Cyrl', sans-serif;
@@ -9,6 +10,7 @@ body {
   margin: 0 auto; }
 
 /* Base font-size:16px */
+/*Формула перевода: em = px / База* */
 .promo {
   min-height: 650px;
   padding: 21px 20px 93px 20px;
