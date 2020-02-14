@@ -1,0 +1,59 @@
+.carousel
+  padding: $rem81 0
+  &__inner
+    position: relative
+    width: $rem750
+    margin: 0 auto
+    height: $rem422
+    img
+      height: $rem422
+      margin: 0 auto
+  .slick-prev, .slick-next
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    left: -$rem66
+    border: none
+    background-color: transparent
+    outline: none
+    z-index: 1
+    img
+      width: $rem31
+      height: $rem50
+  .slick-next
+    left: auto
+    right: -$rem66
+@media (max-width: 991px)
+  .carousel
+    &__inner
+      width: 90vw
+      height: $rem400
+      img
+        width: 80vw
+        height: $rem400
+    .slick-prev
+      left: -$rem26
+      img
+        width: $rem21
+        height: $rem40
+    .slick-next
+      right: -$rem26
+      img
+        width: $rem21
+        height: $rem40
+@media (max-width: 767px)
+  .carousel
+    &__inner
+      height: $rem300
+      img
+        height: $rem300
+@media (max-width: 575px)
+  .carousel
+    &__inner
+      height: $rem250
+      img
+        height: $rem250
+    .slick-prev
+      left: -$rem16
+    .slick-next
+      right: -$rem16
