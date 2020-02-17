@@ -1,0 +1,45 @@
+.feedback
+  padding: 0 20px 70px 20px
+  &-item
+    display: flex     
+  &__img
+    display: block
+    width: $rem169
+    height: $rem169
+  &-text
+    width: 650px
+    margin-left: 60px
+    max-width: 95vw
+    &__name
+      color: #0d0d0d
+      font-size: $em18
+      font-weight: 700
+      //margin-bottom: 10px
+      line-height: $em28
+    &__count
+      color: #646464
+      font-size: $em14
+      font-weight: 300
+      margin-bottom: 9px
+    &__descr
+      color: #0d0d0d
+      font-size: $em16
+      font-weight: 300
+  &-line
+    width: 100%
+    height: 1px
+    background-color: #f6f6f6
+    border: none
+    margin: 50px auto
+
+@media (max-width: 767px)
+  .feedback
+    &-item
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      text-align: center
+    &-text
+      margin-left: 0
+    &__img
+      margin-bottom: 15px
