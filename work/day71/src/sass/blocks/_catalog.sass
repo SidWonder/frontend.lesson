@@ -1,0 +1,180 @@
+.catalog
+  padding-bottom: $rem100
+  &__tabs
+    margin-top: $rem70
+    list-style-type: none
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 0
+    padding-left: 0
+  &__tab
+    width: $rem220
+    height: 50px
+    border: 2px solid #d0d0d0
+    color: #6b6b6b
+    font-size: $em18
+    font-weight: 500
+    text-transform: uppercase
+    text-align: center
+    line-height: $em45
+    transform: skewX(-25deg)
+    margin: 0 5px
+    cursor: pointer
+    transition: 0.5s all
+    &:hover
+      box-shadow: 3px 3px 20px #6b6b6b 
+      border: none
+    div
+      transform: skewX(25deg)
+    &_active
+      background-color: #c70101
+      color: #ffffff
+      border: none
+
+  &__content
+    margin-top: $rem60
+    //display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    display: none
+    &_active
+      display: flex
+
+  &-item
+    position: relative
+    width: 300px
+    mim-height: 440px
+    border: 2px solid #e8e8e8
+    padding: 20px 20px 26px 20px
+    overflow: hidden
+    margin-bottom: 20px
+    &__wrapper
+      display: flex
+      width: calc(200% + 40px) 
+    &__content
+      width: 50%
+      margin-right: 0px
+      transform: translateX(-100%)
+      transition: 0.5s all
+      &_active
+        margin-right: 20px
+        transform: translateX(0%)
+    &__list
+      position: relative
+      width: 50%
+      margin-left: 0px
+      transform: translateX(0%)
+      padding-right: 20px
+      padding-left: 19px
+      margin-bottom: 0
+      list-style-type: none
+      &_active
+        margin-left: 20px
+        transform: translateX(-100%)
+        transition: 0.5s all
+      li
+        position: relative
+        color: #555555
+        font-size: $em14
+        font-weight: 300
+        margin-bottom: 20px
+        &:before
+          content: ''
+          position: absolute
+          width: 5px
+          height: 5px
+          background-color: #c70101
+          left: -14px
+          top: 7px
+    &__back
+      position: absolute
+      bottom: 0
+      left: 50%
+      transform: translateX(calc(-50% - 19px))
+      display: block
+      color: #c70101
+      font-size: $em14
+      font-weight: 500
+      text-decoration: underline
+      margin-bottom: 19px
+      text-transform: uppercase
+      &:hover
+        color: #c70101
+    &__img
+      display: block
+      max-width: 100%
+      height: 200px
+      margin: 0 auto
+    &__subtitle
+      margin-top: 20px
+      color: #0d0d0d
+      font-size: 16px
+      font-weight: 700
+      text-align: center
+    &__descr
+      margin-top: 16px
+      color: #0d0d0d
+      font-size: $em14
+      font-weight: 300
+      text-align: center
+    &__link
+      display: block
+      margin-top: 17px
+      color: #c70101
+      font-size: $em14
+      font-weight: 500
+      text-decoration: underline
+      text-align: center
+      text-transform: uppercase
+      &:hover
+        color: #c70101
+        
+    hr
+      margin-top: 19px
+      margin-bottom: 21px
+      height: 1px
+      background-color: #e8e8e8
+      border: none
+    &__footer
+      display: flex
+      justify-content: space-between
+      align-items: center
+    &__prices
+    &__btn
+    &__old-price
+      color: #555555
+      font-size: $em14
+      font-weight: 300
+      text-decoration: line-through
+    &__price
+      color: #050505
+      font-size: $em20
+      font-weight: 700
+
+
+@media (max-width: 767px)
+  .catalog
+    &__tab
+      width: $rem170
+      line-height: $em50
+@media (max-width: 575px)
+  .catalog
+    &__tab
+      font-size: $em16
+      line-height: $em48
+      width: $rem130
+      height: $rem40
+
+@media (max-width: 575px)
+  .catalog
+    &__tabs
+      margin-top: $rem40
+      display: flex
+      flex-direction: column
+    &__tab
+      margin-bottom: 10px
+      font-size: $em16
+      line-height: $em48
+      width: $rem130
+      height: $rem40
