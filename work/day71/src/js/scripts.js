@@ -57,4 +57,36 @@ $(document).ready(function() {
     });
   });
 
+  //Отправка писем AJAX
+  $('form').submit(function (e) {
+    e.preventDefault(); //Отключаем стандартное поведение браузера. Т.е. при нажатии отправки страница перезагружаться не будет
+    $.ajax({
+      type: "POST",
+      url: "libs/send.php",
+      data: $(this).serialize()
+    }).done(function(){ //Действия после отправки формы
+      $(this).find('input').val("");
+      $('#consultation, #order').fadeOut(); //Закрываем окна формы
+      $('.overlay, #thanks').fadeIn('slow'); //Показываем окно благодарности
+
+      $('form').trigger('reset');
+    });
+    return false;
+  });
+
+  //Кнопка вверх и скролл
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 1600) {
+      $('.pageup').fadeIn();
+    }
+    else {
+      $(".pageup").fadeOut();
+    }
+  });
+      //Плавный скролл вверх
+  $("a[href='#up']").click(function() {
+    const _href = $(this).attr("href");
+    $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+    return false;
+  });  
 });
