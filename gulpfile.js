@@ -149,7 +149,6 @@ gulp.task('watch', function() {
     gulp.watch(_src_+'**/*.html', ['html'], browserSync.reload); // Наблюдение за HTML файлами      
     gulp.watch(_src_+'js/**/*.js', ['scripts', 'clear'], browserSync.reload),   // Наблюдение за JS файлами в папке js    
     gulp.watch(_src_+'libs/**/*.*', ['copy', 'clear'], browserSync.reload);   // Наблюдение за JS файлами в папке js 
-
 });
 
 
