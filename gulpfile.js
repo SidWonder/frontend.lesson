@@ -24,7 +24,7 @@ var gulp       	 = require('gulp'), 					      // Подключаем Gulp     
     del          = require('del'), 						      // Удаление файлов и папок                        npm i --save-dev del
     concat       = require('gulp-concat'), 				  // Конкатенация файлов                            npm i --save-dev gulp-concat
 
-    uglify       = require('gulp-uglify'), 				  // Сжатие JS                                      npm i --save-dev gulp-uglify
+    uglify       = require('gulp-uglify-es').default, 		  // Сжатие JS                                      npm i --save-dev gulp-uglify
     jshint       = require("gulp-jshint"), 				  // Отслеживание ошибкок в js                      npm i --save-dev gulp-jshint
 
     _src_        = "work/day71/src/",
@@ -41,8 +41,9 @@ var plumberErrorHandler = { errorHandler: notify.onError({
 // SASS
 gulp.task('sass', function(){ // Создаем таск Sass
     gulp.src(_src_+'sass/*.sass') // Берем источник    
-        .pipe(plumber(plumberErrorHandler))
-        .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
+        .pipe(plumber(plumberErrorHandler))                         
+        .pipe(sass({ outputStyle: 'compressed' }))   
+        //.pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
         .pipe(gulp.dest(_src_+'css')) // Выгружаем результата в папку app/css
         .pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
@@ -80,8 +81,10 @@ gulp.task('clean', function() {
     return del.sync(_dist_); // Удаляем папку dist перед сборкой
 });
 
+
 // Сжимаем JS
 gulp.task('scripts', ['jstest'], function() {
+    //del.sync(_src_ + 'js/scripts.min.js');
     return gulp.src([_src_ + 'js/*.js', '!'+_src_+'js/*.min.js'])   // Ищем все JS
         .pipe(concat('scripts.min.js')) // Собираем их в кучу в новом файле libs.min.js
         .pipe(uglify()) // Сжимаем JS файл
@@ -135,7 +138,7 @@ gulp.task('build', ['clean', 'img', 'sass', 'styles', 'scripts'], function() {
 
 //WATCH 
 gulp.task('watch',['browser-sync'], function() {
-    gulp.watch(_src_+'sass/**/*.sass', ['sass', 'styles']); // Наблюдение за sass файлами в папке sass
+    gulp.watch(_src_+'sass/**/*.+(sass|scss|css)', ['sass', 'styles']); // Наблюдение за sass файлами в папке sass
     gulp.watch(_src_+'**/*.css', browserSync.reload); // Наблюдение за CSS файлами    
     gulp.watch(_src_+'**/*.html', browserSync.reload); // Наблюдение за HTML файлами      
     gulp.watch(_src_+'js/**/*.js', browserSync.reload);   // Наблюдение за JS файлами в папке js    
