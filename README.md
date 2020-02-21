@@ -24,7 +24,7 @@
 По курсу "WEB-РАЗРАБОТЧИК 2019" уже нахожусь на финишной прямой.  
 В дальнейшем в планах сверстать несколько макетов и затем переходить к курсу по JavaScript. 
 
-[>>>Pulse - полная верстка<<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day71/src/index.html)
+[>>>Pulse - полная верстка<<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day71/dist/index.html)
 
 ---
 
@@ -54,7 +54,7 @@
 Подправил файл концигурации Gulp, что-бы не было вылетов при ошибках, так же добавил вывод уведомлений при ошибке как всплывающее окно в Windows.  
 Оттачивал навыки работы с git, практиковал работу на разных ветках, слияние и др.
 
-[>>>Pulse - готово 4 секции<<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day71/src/index.html)
+[>>>Pulse - готово 4 секции<<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day71/dist/index.html)
 
 ---
 
