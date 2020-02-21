@@ -7,7 +7,7 @@
  * Выполнить команду: npm i
  * 
  */
-
+ 
 'use strict';
 const  gulp       	 = require('gulp'), 					      // Подключаем Gulp                                npm i --save-dev gulp
     browserSync  = require('browser-sync'), 			  // Подключаем Browser Sync                        npm i --save-dev browser-sync
