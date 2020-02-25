@@ -11,6 +11,8 @@ body {
 @media (max-width: 575px) {body {font-size: 13px;}}
 
 .container {
+  padding-left: 30px;
+  padding-right: 30px;
   max-width: 1200px;
   margin: 0 auto;
   //border: 1px solid black;
@@ -25,3 +27,4 @@ body {
 @import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/title';
+@import 'blocks/reliability'
