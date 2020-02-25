@@ -28,8 +28,8 @@ const  gulp       	 = require('gulp'), 					      // Подключаем Gulp  
     uglify       = require('gulp-uglify-es').default, 		  // Сжатие JS                                      npm i --save-dev gulp-uglify
     jshint       = require("gulp-jshint"), 				  // Отслеживание ошибкок в js                      npm i --save-dev gulp-jshint
 
-    _src_        = "work/day71/src/",
-    _dist_       = "work/day71/dist/",
+    _src_        = "work/day72/src/",
+    _dist_       = "work/day72/dist/",
     _css_        = "css"; //Папка с стилями
 
 //Выводим сообщение о ошибках
@@ -148,7 +148,8 @@ gulp.task('watch', function() {
     gulp.watch(_src_+'**/*.css', ['styles', 'clear'], browserSync.reload); // Наблюдение за CSS файлами    
     gulp.watch(_src_+'**/*.html', ['html'], browserSync.reload); // Наблюдение за HTML файлами      
     gulp.watch(_src_+'js/**/*.js', ['scripts', 'clear'], browserSync.reload),   // Наблюдение за JS файлами в папке js    
-    gulp.watch(_src_+'libs/**/*.*', ['copy', 'clear'], browserSync.reload);   // Наблюдение за JS файлами в папке js 
+    gulp.watch(_src_+'libs/**/*.*', ['copy', 'clear'], browserSync.reload); 
+    gulp.watch(_src_+'img/**/*.*', ['img', 'clear'], browserSync.reload); 
 });
 
 

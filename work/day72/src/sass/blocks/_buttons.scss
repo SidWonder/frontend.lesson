@@ -1,0 +1,34 @@
+.btn {
+  display: block;
+  width: 160px;
+  height: 45px;
+  background-color: $colorAction;
+  border: none;
+  border-radius: 25px;
+  //text
+  color: #ffffff;
+  font-size: $em12;
+  font-weight: 400;
+  line-height: $em22;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #dc5238;
+  }
+  &-contacts {
+    margin-left: $em19 ;
+  }
+  &-promo {
+    margin: 0 auto;
+    width: 230px;
+    height: 57px;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn {
+    &-contacts {
+    margin: 0 auto;
+    width: 70%;
+  }
+  }
+}
