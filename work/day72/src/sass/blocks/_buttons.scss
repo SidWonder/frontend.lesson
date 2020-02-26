@@ -22,6 +22,15 @@
     width: 230px;
     height: 57px;
   }
+  &-consultation {
+    width: 180px;
+    position: absolute;
+    bottom: -22.5px;
+    left: calc(50% + 10px);
+    transform: translateX(-50%);
+    bottom: -35px;
+  }
+
 }
 
 @media (max-width: 575px) {

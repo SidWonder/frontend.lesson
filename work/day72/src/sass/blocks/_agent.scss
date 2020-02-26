@@ -1,8 +1,8 @@
 .agent {
   background: rgba(0, 0, 0, 0.4) url(../img/decor/bg_agent.jpg) center center/cover no-repeat;;
-  min-height: 342px;
-  padding-top: 54px;
-  padding-bottom: 75px;
+  min-height: $rem342;
+  padding-top: $rem54;
+  padding-bottom: $rem75;
   &-img {
     display: flex;
     justify-content: center;
@@ -15,21 +15,21 @@
   }
   &-title {
     color: #ffffff;
-    font-size: 26px;
+    font-size: $em26;
     font-weight: 700;
-    line-height: 23px;
+    line-height: $em23;
     text-align: center;
-    margin-top: 20px;
+    margin-top: $rem20;
   }
   &-descr {
-    max-width: 984px;;
+    max-width: $rem984;
     text-align: center;
     color: #ffffff;
-    font-size: 19px;
+    font-size: $em19;
     font-weight: 300;
-    line-height: 27px;
+    line-height: $em27;
     margin: 0 auto;
-    margin-top: 22px;
+    margin-top: $rem22;
 
   }
 }
