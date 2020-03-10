@@ -1,0 +1,76 @@
+.questions {
+  min-height: $rem438;
+  background:#414141 url(../img/decor/bg_questions.jpg) center center/cover no-repeat;
+  padding-top: $rem62;
+  padding-bottom: $rem79;
+  &-form {
+    //width: 896px;
+    min-height: 297px;
+    margin: 0 auto;
+    &__header {
+      height: 68px;
+      padding-top: $rem15;
+      background-color: #25333c;
+
+    }
+    &__title {
+      color: #ffffff;
+      font-size: 19px;
+      line-height: 19px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: $rem3;
+    }
+    &__subtitle {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 400;
+
+      text-transform: uppercase;
+      text-align: center;
+    }
+    &__main {
+      padding: $rem18 $rem40 $rem25 $rem40;
+      min-height: 229px;
+      background: rgba(255, 255, 255, 0.7);
+      input, textarea {
+        //margin-right: $rem3;
+        //margin-left: $rem3;
+        margin-bottom: $rem8;
+        width: 268px;
+        height: 45px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        border-radius: 100px;
+        background-color: #ffffff;
+        padding-left: $rem27;
+        color: #101010;
+        font-size: $rem13;
+        font-weight: 300;
+      }
+      textarea {
+        width: 100%;
+        border-radius: $rem7;
+        padding-top: $rem18;
+        height: $rem71;
+        resize: none;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+  .questions-form {
+    width: 100%;
+    &__main {
+      input {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .questions-form {width: 896px;}
+}

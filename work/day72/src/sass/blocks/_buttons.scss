@@ -7,9 +7,9 @@
   border-radius: 25px;
   //text
   color: #ffffff;
-  font-size: $em12;
+  font-size: $rem12;
   font-weight: 400;
-  line-height: $em22;
+  line-height: $rem22;
   text-transform: uppercase;
   &:hover {
     background-color: #dc5238;
@@ -29,6 +29,10 @@
     left: calc(50% + 10px);
     transform: translateX(-50%);
     bottom: -35px;
+  }
+  &-quest {
+    width: 180px;
+    margin: 0 auto;
   }
 
 }
