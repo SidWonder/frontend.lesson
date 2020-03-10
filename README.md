@@ -1,3 +1,28 @@
+##### DAY 33 (80) [10.03.2020]
+
+**Что сделано:**
+
+- Верстка GlobalOpt (10/12)
+
+<!--
+**На паузе:**
+-   [FreeCodeCamp](https://learn.freecodecamp.org/)
+-   [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+-   LostSchool: Основы верстки
+-   Book: Б.Лоусон, Р.Шарп "Изучаем HTML5. Библиотека специалиста" (196/286)
+ -->
+
+**Комментарий:**  
+  
+Сегодня занимался пару часов, сверстал 3 блока проекта GlobalOpt включая адаптив.  
+Был перерыв в обучении, буду наверстовать упущеный план.  
+
+
+[>>>GlobalOpt<<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day72/dist/index.html)
+
+
+---
+
 ##### DAY 31-32 (78-79) [25.02.2020-26.02.2020]
 
 **Что сделано:**
