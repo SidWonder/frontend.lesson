@@ -32,14 +32,14 @@
     }
     &__tittle {
       color: #ec644b;
-      font-size: 16px;
+      font-size: $rem16;
       font-weight: 700;
       margin-bottom: $rem5;
     }
     &__desc {
       color: #3a3a3a;
       font-family: Roboto;
-      font-size: 14px;
+      font-size: $rem14;
       font-weight: 300;
       line-height: 20px;
 

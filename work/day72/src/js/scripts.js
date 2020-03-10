@@ -16,3 +16,11 @@ $(document).ready(function () {
     menu.toggleClass("menu_active");
   });
 });
+
+//Slick
+$(document).ready(function () {
+  $('.review-slider').slick({
+    prevArrow: '<button type="button" class="review-slider-prev"></button>',
+    nextArrow: '<button type="button" class="review-slider-next"></button>'
+  });
+});
