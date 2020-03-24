@@ -1,0 +1,68 @@
+.map {
+  position: relative;
+  background:#fff url(../img/decor/map.jpg) center center/cover no-repeat;
+  height: 500px;
+  &_box{
+
+  }
+  &_logo {
+    position: absolute;
+    top: 42%;
+    left: 33%;
+    width: 51px;
+    height: 63px;
+    background: url(../img/icons/map_logo.png) center center/cover no-repeat; //#ec644b
+  }
+  &_text {
+    padding: 27px 35px 28px 32px;
+    position: absolute;
+    top: calc(42% - 50px);
+    left: calc(33% + 85px);
+    width: 329px;
+    height: 158px;
+    background-color: #ffffff;
+    font-weight: 300;
+    &::before {
+      position: absolute;
+      left: -50px;
+      top: 10%;
+      transform: translateY(50%);
+      content: '';
+      //width: 10px;
+      //height: 10px;
+      border: 30px solid transparent; 
+      border-right: 25px solid #fff;
+    }
+    &__sity {
+      color: #ec644b;
+      font-size: $rem16;
+      font-weight: 700;
+    }
+    &__mail a{
+      color: #ec644b;
+      font-weight: 300;
+      text-decoration: underline;
+    }
+  }
+}
+
+
+@media (max-width: 640px) {
+  .map {
+    &_text {
+    top: 5%;
+    left: 15%;  
+    max-width: 92%;
+    //transform: translateX(5%);
+    &::before {
+      display: none;
+    }  
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .map {
+    &_text {left: 5%;  }
+  }
+}
