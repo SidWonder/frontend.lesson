@@ -1,3 +1,29 @@
+##### DAY 34 (81) [24.03.2020]
+
+**Что сделано:**
+
+- Верстка GlobalOpt (12/12)
+- JavaScript [с нуля до результата] (2/42)
+
+<!--
+**На паузе:**
+-   [FreeCodeCamp](https://learn.freecodecamp.org/)
+-   [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+-   LostSchool: Основы верстки
+-   Book: Б.Лоусон, Р.Шарп "Изучаем HTML5. Библиотека специалиста" (196/286)
+ -->
+
+**Комментарий:**  
+  
+Закончил верстку помакету GlobalOpt включая адаптив.  
+Начал проходить курс "JavaScript [с нуля до результата]"
+
+
+[>>>GlobalOpt<<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day72/dist/index.html)
+
+
+---
+
 ##### DAY 33 (80) [10.03.2020]
 
 **Что сделано:**
