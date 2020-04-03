@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  min-height: 65px;
+  padding-top: 40px;
+
+  &-logo {
+    width: 140px;
+    height: 65px;
+  }
+}
+
+.nav {
+      display: flex;
+      justify-content: flex-end;
+      margin-left:auto;
+  ul {
+    display: flex;
+    align-items: center;
+    li {
+      padding-left: 22px;
+      padding-right: 22px;
+      list-style-type: none;
+      a {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}

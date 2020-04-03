@@ -1,0 +1,35 @@
+//TODO: При уменьшении экрана по 1 стране убирать
+
+.lang {
+  padding-top: 19px;
+  padding-bottom: 16px;
+  height: 85px;
+
+  &-country{
+    display: flex;
+    justify-content: space-between;
+  }
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  &-img {
+    margin-top: 3px;
+    width: 28px;
+    height: 21px;
+    margin-right: 11px;
+  }
+  &-text {
+    &__title {
+      color: #242424;
+      font-size: $rem12;
+      font-weight: 700;
+    }
+    &__desc {
+      font-weight: 300;
+      color: #242424;
+      font-size: $rem12;
+    }
+  }
+}
