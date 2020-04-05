@@ -38,3 +38,8 @@
     }
   }
 }
+
+@media (max-width: 991px) {}
+@media (max-width: 800px) {.nav ul li a {font-size: 12px;}}
+@media (max-width: 767px) {.nav {display: none;}}
+@media (max-width: 575px) {}

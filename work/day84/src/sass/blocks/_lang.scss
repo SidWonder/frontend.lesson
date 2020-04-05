@@ -33,3 +33,13 @@
     }
   }
 }
+
+@media (min-width: 450px) and (max-width: 1100px) {.lang-item:last-child {display: none;}}
+@media (min-width: 450px) and (max-width: 900px) {.lang-item:nth-child(4) {display: none;}}
+@media (min-width: 450px) and (max-width: 700px) {.lang-item:nth-child(3) {display: none;}}
+
+@media (max-width: 450px) {
+  .lang {padding-top: 10px; height: 50px;}
+  .lang-text {display: none;}
+  .lang-item {display: flex;}
+}
