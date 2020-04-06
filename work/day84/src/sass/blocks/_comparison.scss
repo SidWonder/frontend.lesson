@@ -1,0 +1,90 @@
+.comparison {
+  min-height: 896px;
+  padding-top: 79px;
+  padding-bottom: 81px;
+
+  &-box {
+    display: flex;
+  }
+
+  &-item {
+    width: 360px;
+    height: 255px;
+    border: 1px solid #ececec;
+    margin-right: 30px;
+    background:#fff url(../img/icons/comparison_quest.png) right bottom no-repeat;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &__img {
+      width: 192px;
+      height: 186px;
+      display: block;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+    }
+
+    &__desc {
+      position: relative;
+      top: -20px;
+      text-align: center;
+      color: #393939;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 26px;
+
+      &-bold {
+        font-weight: 700;
+      }
+    }
+  }
+
+  &-arrow {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+    width: 170px;
+    height: 50px;
+    background-color: #ececec;
+    background:transparent url(../img/icons/comparison_arrow.png) center center/cover no-repeat;
+    &:before {
+      display: block;
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 22px;
+      width: 170px;
+      height: 50px;
+      background: transparent url(../img/icons/comparison_arrow.png) center center/cover no-repeat;
+
+    }
+  }
+
+  &-title {
+    text-align: center;
+    color: #393939;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 33px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .comparison-box {
+    flex-wrap: wrap;
+  }
+  .comparison-item {
+    width: 100% ;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
