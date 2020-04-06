@@ -1,0 +1,96 @@
+.advantages {
+  padding: 80px auto;
+  min-height: 1433px;
+
+  &-title {
+    text-align: center;
+    padding-top: 81px;
+    color: #393939;
+    font-size: $rem30;
+    font-weight: 700;
+    line-height: 35.99px;
+    margin-bottom: 45px;
+  }
+
+  &-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-item {
+    position: relative;
+    //width: 570px;
+    width: 50%;
+    height: 355px;
+    &:after, &:before {
+      content:''; 
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background:  url(../img/decor/advantages_item_bg-wrapp.png) center center/cover no-repeat;
+      background-color: rgba(#333, 0.4);
+      opacity: 0.3;
+    }
+
+    &:nth-child(1) {
+      background: #333 url(../img/decor/advantages_1.jpg) center center/cover no-repeat;
+    }
+    &:nth-child(2) {
+      background:#333 url(../img/decor/advantages_2.jpg) center center/cover no-repeat;
+    }
+    &:nth-child(3) {
+      background: #333 url(../img/decor/advantages_3.jpg) center center/cover no-repeat;
+    }
+    &:nth-child(4) {
+      background:#333 url(../img/decor/advantages_4.jpg) center center/cover no-repeat;
+    }
+    &:nth-child(5) {
+      background: #333 url(../img/decor/advantages_5.jpg) center center/cover no-repeat;
+    }
+    &:nth-child(6) {
+      background:#333 url(../img/decor/advantages_6.jpg) center center/cover no-repeat;
+    }
+
+    &-wrapper {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      max-width: 100%;
+      min-height: 156px;
+      background-color: rgba(#000, 0.4);
+      transform: translateY(-50%);
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+
+    &__text {
+      text-align: center;
+      color: #ffffff;
+      font-size: $rem23;
+      font-weight: 400;
+      line-height: 26px;
+    }
+  }
+}
+
+
+@media (max-width: 991px) {
+  .advantages-item {width: 100% }
+  .advantages-item__text {font-size: $rem22;}
+  .advantages-item-wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 470px) {
+  .advantages-item__text {font-size: $rem20;}
+  .advantages-title {font-size: $rem27;}
+}
