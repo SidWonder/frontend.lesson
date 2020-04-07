@@ -1,10 +1,10 @@
 .advantages {
-  padding: 80px auto;
-  min-height: 1433px;
+  padding-top: 80px;
+  //min-height: 1433px;
+  padding-bottom: 80px;
 
   &-title {
     text-align: center;
-    padding-top: 81px;
     color: #393939;
     font-size: $rem30;
     font-weight: 700;
