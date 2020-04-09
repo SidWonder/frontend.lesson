@@ -1,0 +1,29 @@
+.access {
+  min-height: 690px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  &-square {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 302px;
+    height: 302px;
+    background:transparent url(../img/decor/access_square.png) center center/cover no-repeat;
+    margin-bottom: 67px;
+    img {
+      max-width: 240px;
+      height: 240px;
+    }
+  }
+
+  &-title {
+    text-align: center;
+    color: #393939;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+}
