@@ -1,3 +1,110 @@
+##### DAY 44 (91) [11.04.2020]
+
+**Что сделано:**   
+- Комплексное обучение Javascript (1/20)
+
+<!--
+**На паузе:**
+-   [FreeCodeCamp](https://learn.freecodecamp.org/)
+-   [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+-   LostSchool: Основы верстки
+-   Book: Б.Лоусон, Р.Шарп "Изучаем HTML5. Библиотека специалиста" (196/286)
+ -->
+
+ **Комментарий:**  
+Начал проходить курс "Комплексное обучение Javascript".
+
+
+| Задача:                     | Время:   |
+| --------------------------- | -------- |
+| JavaScript                  | 69 мин.  |
+| English                     | 0  мин.  |
+| Верстка Prengi              | 0 мин.   |
+
+
+---
+
+
+##### DAY 43 (90) [10.04.2020]
+
+**Что сделано:**   
+- Чтение книг по верстке
+
+<!--
+**На паузе:**
+-   [FreeCodeCamp](https://learn.freecodecamp.org/)
+-   [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+-   LostSchool: Основы верстки
+-   Book: Б.Лоусон, Р.Шарп "Изучаем HTML5. Библиотека специалиста" (196/286)
+ -->
+
+ **Комментарий:**  
+Пробежался по книгам по HTML + CSS, повторил теорию из учебников.   
+
+
+| Задача:                     | Время:   |
+| --------------------------- | -------- |
+| JavaScript                  | 0 мин.   |
+| English                     | 0  мин.  |
+| Верстка Prengi              | 0 мин.   |
+| Чтение книг по верстке      | 101 мин. |
+
+
+---
+
+##### DAY 42 (89) [09.04.2020]
+
+**Что сделано:**  
+- Верстка Prengi (7/8)
+
+<!--
+**На паузе:**
+-   [FreeCodeCamp](https://learn.freecodecamp.org/)
+-   [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+-   LostSchool: Основы верстки
+-   Book: Б.Лоусон, Р.Шарп "Изучаем HTML5. Библиотека специалиста" (196/286)
+ -->
+
+ **Комментарий:**   
+Prengi - сверстал 7,8 секции (+адаптив). И доверстал адаптив 6 секции.   
+
+[>>>Prengi<<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day84/dist/index.html)
+
+| Задача:                     | Время:   |
+| --------------------------- | -------- |
+| JavaScript                  | 0 мин.   |
+| English                     | 0  мин.  |
+| Верстка Prengi              | 143 мин. |
+
+---
+
+##### DAY 41 (88) [07.04.2020]
+
+**Что сделано:**   
+- Верстка Prengi (5/8)
+
+<!--
+**На паузе:**
+-   [FreeCodeCamp](https://learn.freecodecamp.org/)
+-   [Harvard CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50)
+-   LostSchool: Основы верстки
+-   Book: Б.Лоусон, Р.Шарп "Изучаем HTML5. Библиотека специалиста" (196/286)
+ -->
+
+ **Комментарий:**  
+Prengi - сверстал 6 секцию.
+
+[>>>Prengi<<<](https://raw.githack.com/tanderbull/frontend.lesson/master/work/day84/dist/index.html)
+
+| Задача:                     | Время:   |
+| --------------------------- | -------- |
+| JavaScript                  | 0 мин.   |
+| English                     | 0  мин.  |
+| Верстка Prengi              | 64 мин.  |
+
+---
+
+
 ##### DAY 40 (87) [06.04.2020]
 
 **Что сделано:**
