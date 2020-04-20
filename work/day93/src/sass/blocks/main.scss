@@ -1,0 +1,94 @@
+.main {
+  //background-color: gray; 
+  &-link {
+    display: block;
+    text-align: center;
+  }
+}
+
+// Galery 1
+.galery1 {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  width: 100%;
+  &-img {
+    flex:auto;
+    width: 300px;
+    margin: .5vw;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1007px) {
+  .galery1 {
+    &-img {
+      width: 200px;
+    }
+  }
+}
+
+//Galery 2
+
+.title {
+  display: block;
+  text-align: center;
+}
+
+.galery2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+  &-img {
+    width: 100%;
+    padding: .5vw;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.paginator {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  li {
+    list-style-type: none;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    background-color: orangered;
+    width: 27px;
+    display: inline-block;
+    margin: 5px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+  }
+  .action {
+    background-color: gray;
+    border: 1px solid gray;
+    cursor: default;
+    pointer-events: none; 
+  }
+
+}
+
+
+
+
+.fancybox { width: 45%; }
+
+@media screen and (max-width: 991px) {
+  .fancybox { width: 50%; }
+}
+
+@media (max-width: 767px) {.fancybox { width: 75%; }}
+@media (max-width: 575px) {.fancybox { width: 100%; }}

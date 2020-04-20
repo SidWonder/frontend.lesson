@@ -28,8 +28,8 @@ const  gulp       	 = require('gulp'), 					      // Подключаем Gulp  
     uglify       = require('gulp-uglify-es').default, 		  // Сжатие JS                                      npm i --save-dev gulp-uglify
     jshint       = require("gulp-jshint"), 				  // Отслеживание ошибкок в js                      npm i --save-dev gulp-jshint
 
-    _src_        = "work/day84/src/",
-    _dist_       = "work/day84/dist/",
+    _src_        = "work/day93/src/",
+    _dist_       = "work/day93/dist/",
     _css_        = "css"; //Папка с стилями
 
 //Выводим сообщение о ошибках
